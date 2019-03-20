@@ -102,3 +102,4 @@ Satis is licensed under the MIT License - see the [LICENSE][] file for details
 [composer-satis-builder]: https://github.com/AOEpeople/composer-satis-builder
 [LICENSE]: https://github.com/composer/satis/blob/master/LICENSE
 [eventum/composer]: https://github.com/eventum/composer
+#packages

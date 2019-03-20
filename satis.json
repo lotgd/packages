@@ -1,0 +1,22 @@
+{
+    "name": "Legend of the Green Dragon Repositories",
+    "homepage": "http://code.lot.gd",
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/lotgd/core" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-project" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-dragon-kills" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-forms" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-weapon-shop" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-simple-inventory" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-simple-wealth" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-village" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-scene-bundle" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-new-day" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-gender" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-res-fight" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-forest" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-training" },
+        { "type": "vcs", "url": "https://github.com/lotgd/crate-graphql" }
+    ],
+    "require-all": true
+}
