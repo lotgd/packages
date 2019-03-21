@@ -1,0 +1,4374 @@
+{
+    "packages": {
+        "lotgd/core": {
+            "v0.1.0-alpha": {
+                "name": "lotgd/core",
+                "version": "v0.1.0-alpha",
+                "version_normalized": "0.1.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "e041db89bcd9db2f9094ab24b8bd295d7dcdfdb3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/e041db89bcd9db2f9094ab24b8bd295d7dcdfdb3",
+                    "reference": "e041db89bcd9db2f9094ab24b8bd295d7dcdfdb3",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "^2.5",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.0.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2016-12-31T22:00:30+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/v0.1.0-alpha",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "v0.2.0-alpha": {
+                "name": "lotgd/core",
+                "version": "v0.2.0-alpha",
+                "version_normalized": "0.2.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "03fc11477546a1518d4e4538cce9429a1d198180"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/03fc11477546a1518d4e4538cce9429a1d198180",
+                    "reference": "03fc11477546a1518d4e4538cce9429a1d198180",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "^2.5",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2017-03-13T13:13:50+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/v0.2.0-alpha",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "v0.3.0-alpha": {
+                "name": "lotgd/core",
+                "version": "v0.3.0-alpha",
+                "version_normalized": "0.3.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "bbc960fd3d721bdd40dd7d0758ab1ec0aa403a20"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/bbc960fd3d721bdd40dd7d0758ab1ec0aa403a20",
+                    "reference": "bbc960fd3d721bdd40dd7d0758ab1ec0aa403a20",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "^2.5",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2017-04-25T20:31:37+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/v0.3.0-alpha",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "v0.3.1-alpha": {
+                "name": "lotgd/core",
+                "version": "v0.3.1-alpha",
+                "version_normalized": "0.3.1.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "867843dddd9960f2c2b4f65b47ea5c72b0d48d42"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/867843dddd9960f2c2b4f65b47ea5c72b0d48d42",
+                    "reference": "867843dddd9960f2c2b4f65b47ea5c72b0d48d42",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "^2.5",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2017-06-23T12:43:24+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/v0.3.2-alpha",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "v0.3.2-alpha": {
+                "name": "lotgd/core",
+                "version": "v0.3.2-alpha",
+                "version_normalized": "0.3.2.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "867843dddd9960f2c2b4f65b47ea5c72b0d48d42"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/867843dddd9960f2c2b4f65b47ea5c72b0d48d42",
+                    "reference": "867843dddd9960f2c2b4f65b47ea5c72b0d48d42",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "^2.5",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2017-06-23T12:43:24+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/v0.3.2-alpha",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "0.4.0": {
+                "name": "lotgd/core",
+                "version": "0.4.0",
+                "version_normalized": "0.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "04a5b59ea2187e857ced84fb8b5259aad2cfd554"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/04a5b59ea2187e857ced84fb8b5259aad2cfd554",
+                    "reference": "04a5b59ea2187e857ced84fb8b5259aad2cfd554",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "2.5.*",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2018-01-26T15:21:53+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/v0.4.0",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "v0.4.0-alpha": {
+                "name": "lotgd/core",
+                "version": "v0.4.0-alpha",
+                "version_normalized": "0.4.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "efb333d08ab0d05d93e6819b82faa53d003061b5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/efb333d08ab0d05d93e6819b82faa53d003061b5",
+                    "reference": "efb333d08ab0d05d93e6819b82faa53d003061b5",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "2.5.*",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2018-01-10T07:27:56+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "0.4.1": {
+                "name": "lotgd/core",
+                "version": "0.4.1",
+                "version_normalized": "0.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "25341a677dead7353db92dccef6edf47235619d8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/25341a677dead7353db92dccef6edf47235619d8",
+                    "reference": "25341a677dead7353db92dccef6edf47235619d8",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "2.5.*",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2018-04-26T15:31:42+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/v0.4.1",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "049d116028518440973e8fb3c66309d952bd9a35"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/049d116028518440973e8fb3c66309d952bd9a35",
+                    "reference": "049d116028518440973e8fb3c66309d952bd9a35",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "2.5.*",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "ramsey/uuid-doctrine": "^1.5",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2018-10-10T08:12:59+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/v0.5.0-alpha",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-feature/attachment": {
+                "name": "lotgd/core",
+                "version": "dev-feature/attachment",
+                "version_normalized": "dev-feature/attachment",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "811e359016dd035fa72eaae2af1510792f86fab9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/811e359016dd035fa72eaae2af1510792f86fab9",
+                    "reference": "811e359016dd035fa72eaae2af1510792f86fab9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "2.5.*",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "ramsey/uuid-doctrine": "^1.5",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2018-10-11T16:10:19+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/feature/attachment",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-feature/graceful-register-failure": {
+                "name": "lotgd/core",
+                "version": "dev-feature/graceful-register-failure",
+                "version_normalized": "dev-feature/graceful-register-failure",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "653a0893a8598f0ba89d33c1f7be9c45df9678bf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/653a0893a8598f0ba89d33c1f7be9c45df9678bf",
+                    "reference": "653a0893a8598f0ba89d33c1f7be9c45df9678bf",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "^2.5",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2018-10-05T14:03:58+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/feature/graceful-register-failure",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-feature/id-remake": {
+                "name": "lotgd/core",
+                "version": "dev-feature/id-remake",
+                "version_normalized": "dev-feature/id-remake",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "a097c29d677460e09fb647c9ef16e511bb3e0342"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/a097c29d677460e09fb647c9ef16e511bb3e0342",
+                    "reference": "a097c29d677460e09fb647c9ef16e511bb3e0342",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "2.5.*",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "ramsey/uuid-doctrine": "^1.5",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2018-10-08T15:29:44+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/feature/id-remake",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-feature/symfony4": {
+                "name": "lotgd/core",
+                "version": "dev-feature/symfony4",
+                "version_normalized": "dev-feature/symfony4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "3dccd9a694256d10698af6585e7d06067e5615de"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/3dccd9a694256d10698af6585e7d06067e5615de",
+                    "reference": "3dccd9a694256d10698af6585e7d06067e5615de",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "^2.5",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "ramsey/uuid-doctrine": "^1.5",
+                    "symfony/console": "^3.0|^4.0",
+                    "symfony/yaml": "^3.0|^4.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2019-03-21T15:32:57+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/feature/symfony4",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-feature/updated-models": {
+                "name": "lotgd/core",
+                "version": "dev-feature/updated-models",
+                "version_normalized": "dev-feature/updated-models",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "efb333d08ab0d05d93e6819b82faa53d003061b5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/efb333d08ab0d05d93e6819b82faa53d003061b5",
+                    "reference": "efb333d08ab0d05d93e6819b82faa53d003061b5",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "2.5.*",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2018-01-10T07:27:56+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-fix/battle": {
+                "name": "lotgd/core",
+                "version": "dev-fix/battle",
+                "version_normalized": "dev-fix/battle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "ccbfa0553caed0a4e7ba183728357cedd4cee402"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/ccbfa0553caed0a4e7ba183728357cedd4cee402",
+                    "reference": "ccbfa0553caed0a4e7ba183728357cedd4cee402",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "2.5.*",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2018-01-27T18:33:59+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/fix/battle",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-testing/hotfix": {
+                "name": "lotgd/core",
+                "version": "dev-testing/hotfix",
+                "version_normalized": "dev-testing/hotfix",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "ccfb432e4d3dc95b53b39183193847535234af7d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/ccfb432e4d3dc95b53b39183193847535234af7d",
+                    "reference": "ccfb432e4d3dc95b53b39183193847535234af7d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "2.5.*",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2018-04-12T17:49:10+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/testing/hotfix",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-version/0.4": {
+                "name": "lotgd/core",
+                "version": "dev-version/0.4",
+                "version_normalized": "dev-version/0.4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "25341a677dead7353db92dccef6edf47235619d8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/25341a677dead7353db92dccef6edf47235619d8",
+                    "reference": "25341a677dead7353db92dccef6edf47235619d8",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "2.5.*",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2018-04-26T15:31:42+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/v0.4.1",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-version/0.5": {
+                "name": "lotgd/core",
+                "version": "dev-version/0.5",
+                "version_normalized": "dev-version/0.5",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "049d116028518440973e8fb3c66309d952bd9a35"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/049d116028518440973e8fb3c66309d952bd9a35",
+                    "reference": "049d116028518440973e8fb3c66309d952bd9a35",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "2.5.*",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "ramsey/uuid-doctrine": "^1.5",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2018-10-10T08:12:59+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/v0.5.0-alpha",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            }
+        },
+        "lotgd/crate-graphql": {
+            "v0.2.0-alpha": {
+                "name": "lotgd/crate-graphql",
+                "version": "v0.2.0-alpha",
+                "version_normalized": "0.2.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "e9d476ca5341f91073234f6e4281b87c772e45ef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/e9d476ca5341f91073234f6e4281b87c772e45ef",
+                    "reference": "e9d476ca5341f91073234f6e4281b87c772e45ef",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "^0.2-alpha",
+                    "lotgd/module-scene-bundle": "^0.2-alpha",
+                    "lotgd/module-village": "^0.2-alpha",
+                    "overblog/graphql-bundle": "dev-master",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/framework-extra-bundle": "^3.0.2",
+                    "symfony/monolog-bundle": "^2.8",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^2.3",
+                    "symfony/symfony": "3.1.*"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.5",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2017-03-14T10:46:02+00:00",
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/v0.2.0-alpha",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            },
+            "v0.3.0-alpha": {
+                "name": "lotgd/crate-graphql",
+                "version": "v0.3.0-alpha",
+                "version_normalized": "0.3.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "b25d24326a072cdb44b8b35a86f0f2e245c584ab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/b25d24326a072cdb44b8b35a86f0f2e245c584ab",
+                    "reference": "b25d24326a072cdb44b8b35a86f0f2e245c584ab",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "^0.3.0-alpha",
+                    "lotgd/module-scene-bundle": "^0.3.0-alpha",
+                    "lotgd/module-village": "^0.3.0-alpha",
+                    "overblog/graphql-bundle": "^0.8.0",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/framework-extra-bundle": "^3.0.2",
+                    "symfony/monolog-bundle": "^2.8",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^2.3",
+                    "symfony/symfony": "3.1.*"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.5",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2017-06-07T09:38:08+00:00",
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/v0.3.0-alpha",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            },
+            "v0.3.1-alpha": {
+                "name": "lotgd/crate-graphql",
+                "version": "v0.3.1-alpha",
+                "version_normalized": "0.3.1.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "d8c4fc7e5e0add46bcaedee7b0ff6887eaa49695"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/d8c4fc7e5e0add46bcaedee7b0ff6887eaa49695",
+                    "reference": "d8c4fc7e5e0add46bcaedee7b0ff6887eaa49695",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "^0.3.1-alpha",
+                    "lotgd/module-scene-bundle": "^0.3.0-alpha",
+                    "lotgd/module-village": "^0.3.0-alpha",
+                    "overblog/graphql-bundle": "^0.8.0",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/framework-extra-bundle": "^3.0.2",
+                    "symfony/monolog-bundle": "^2.8",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^2.3",
+                    "symfony/symfony": "3.1.*"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.5",
+                    "lotgd/module-gender": "^0.3.0-alpha",
+                    "lotgd/module-new-day": "^0.3.1-alpha",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2017-09-13T08:29:56+00:00",
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/v0.3.1-alpha",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            },
+            "v0.4.0": {
+                "name": "lotgd/crate-graphql",
+                "version": "v0.4.0",
+                "version_normalized": "0.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "7b8fb3dc2a821cd7be024268fa7eb6c8407190a1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/7b8fb3dc2a821cd7be024268fa7eb6c8407190a1",
+                    "reference": "7b8fb3dc2a821cd7be024268fa7eb6c8407190a1",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "^0.4.0-alpha",
+                    "overblog/graphql-bundle": "^0.10.0",
+                    "sensio/framework-extra-bundle": "^3.0.2",
+                    "symfony/monolog-bundle": "^2.8",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^2.3",
+                    "symfony/symfony": "^3.3.0"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.9",
+                    "lotgd/module-dragon-kills": "^0.4.0-alpha",
+                    "lotgd/module-forest": "^0.4.0-alpha",
+                    "lotgd/module-gender": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-res-fight": "^0.4.0-alpha",
+                    "lotgd/module-scene-bundle": "^0.4.0-alpha",
+                    "lotgd/module-training": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2018-01-26T18:00:02+00:00",
+                "bin": [
+                    "bin/console"
+                ],
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/v0.4.0",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            },
+            "v0.4.0-alpha": {
+                "name": "lotgd/crate-graphql",
+                "version": "v0.4.0-alpha",
+                "version_normalized": "0.4.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "185faabe61a4aff62f7980476eba7c52d193eb62"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/185faabe61a4aff62f7980476eba7c52d193eb62",
+                    "reference": "185faabe61a4aff62f7980476eba7c52d193eb62",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-scene-bundle": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha",
+                    "overblog/graphql-bundle": "^0.9.0",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/framework-extra-bundle": "^3.0.2",
+                    "symfony/monolog-bundle": "^2.8",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^2.3",
+                    "symfony/symfony": "3.1.*"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.5",
+                    "lotgd/module-dragon-kills": "^0.4.0-alpha",
+                    "lotgd/module-forest": "^0.4.0-alpha",
+                    "lotgd/module-gender": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-res-fight": "^0.4.0-alpha",
+                    "lotgd/module-training": "^0.4.0-alpha",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2018-01-15T20:19:30+00:00",
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/crate-graphql",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "bdc3616665df38526f8c964310f803ea4799784a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/bdc3616665df38526f8c964310f803ea4799784a",
+                    "reference": "bdc3616665df38526f8c964310f803ea4799784a",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "dev-master as 0.4.0",
+                    "overblog/graphql-bundle": "^0.11.0-dev",
+                    "sensio/framework-extra-bundle": "^5.0",
+                    "symfony/monolog-bundle": "^3.0",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^3.0",
+                    "symfony/symfony": "^3.4.0"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.9",
+                    "lotgd/module-scene-bundle": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2018-10-11T09:29:48+00:00",
+                "bin": [
+                    "bin/console"
+                ],
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/core-update/0.5",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            },
+            "dev-core-update/0.5": {
+                "name": "lotgd/crate-graphql",
+                "version": "dev-core-update/0.5",
+                "version_normalized": "dev-core-update/0.5",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "bdc3616665df38526f8c964310f803ea4799784a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/bdc3616665df38526f8c964310f803ea4799784a",
+                    "reference": "bdc3616665df38526f8c964310f803ea4799784a",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "dev-master as 0.4.0",
+                    "overblog/graphql-bundle": "^0.11.0-dev",
+                    "sensio/framework-extra-bundle": "^5.0",
+                    "symfony/monolog-bundle": "^3.0",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^3.0",
+                    "symfony/symfony": "^3.4.0"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.9",
+                    "lotgd/module-scene-bundle": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2018-10-11T09:29:48+00:00",
+                "bin": [
+                    "bin/console"
+                ],
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/core-update/0.5",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            },
+            "dev-temp/attachments": {
+                "name": "lotgd/crate-graphql",
+                "version": "dev-temp/attachments",
+                "version_normalized": "dev-temp/attachments",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "4c1022c8fbd973e9f8e51e9b1b6d7b85796b2f88"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/4c1022c8fbd973e9f8e51e9b1b6d7b85796b2f88",
+                    "reference": "4c1022c8fbd973e9f8e51e9b1b6d7b85796b2f88",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "^0.3.2-alpha",
+                    "lotgd/module-forms": "^0.1.0-alpha",
+                    "overblog/graphql-bundle": "dev-master",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/framework-extra-bundle": "^3.0.2",
+                    "symfony/monolog-bundle": "^2.8",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^2.3",
+                    "symfony/symfony": "3.1.*"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.5",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2018-01-27T18:41:17+00:00",
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/temp/attachments",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            },
+            "dev-version/0.2": {
+                "name": "lotgd/crate-graphql",
+                "version": "dev-version/0.2",
+                "version_normalized": "dev-version/0.2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "e9d476ca5341f91073234f6e4281b87c772e45ef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/e9d476ca5341f91073234f6e4281b87c772e45ef",
+                    "reference": "e9d476ca5341f91073234f6e4281b87c772e45ef",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "^0.2-alpha",
+                    "lotgd/module-scene-bundle": "^0.2-alpha",
+                    "lotgd/module-village": "^0.2-alpha",
+                    "overblog/graphql-bundle": "dev-master",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/framework-extra-bundle": "^3.0.2",
+                    "symfony/monolog-bundle": "^2.8",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^2.3",
+                    "symfony/symfony": "3.1.*"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.5",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2017-03-14T10:46:02+00:00",
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/v0.2.0-alpha",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            },
+            "dev-version/0.3": {
+                "name": "lotgd/crate-graphql",
+                "version": "dev-version/0.3",
+                "version_normalized": "dev-version/0.3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "d8c4fc7e5e0add46bcaedee7b0ff6887eaa49695"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/d8c4fc7e5e0add46bcaedee7b0ff6887eaa49695",
+                    "reference": "d8c4fc7e5e0add46bcaedee7b0ff6887eaa49695",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "^0.3.1-alpha",
+                    "lotgd/module-scene-bundle": "^0.3.0-alpha",
+                    "lotgd/module-village": "^0.3.0-alpha",
+                    "overblog/graphql-bundle": "^0.8.0",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/framework-extra-bundle": "^3.0.2",
+                    "symfony/monolog-bundle": "^2.8",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^2.3",
+                    "symfony/symfony": "3.1.*"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.5",
+                    "lotgd/module-gender": "^0.3.0-alpha",
+                    "lotgd/module-new-day": "^0.3.1-alpha",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2017-09-13T08:29:56+00:00",
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/v0.3.1-alpha",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            },
+            "dev-version/0.4": {
+                "name": "lotgd/crate-graphql",
+                "version": "dev-version/0.4",
+                "version_normalized": "dev-version/0.4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "7b8fb3dc2a821cd7be024268fa7eb6c8407190a1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/7b8fb3dc2a821cd7be024268fa7eb6c8407190a1",
+                    "reference": "7b8fb3dc2a821cd7be024268fa7eb6c8407190a1",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "^0.4.0-alpha",
+                    "overblog/graphql-bundle": "^0.10.0",
+                    "sensio/framework-extra-bundle": "^3.0.2",
+                    "symfony/monolog-bundle": "^2.8",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^2.3",
+                    "symfony/symfony": "^3.3.0"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.9",
+                    "lotgd/module-dragon-kills": "^0.4.0-alpha",
+                    "lotgd/module-forest": "^0.4.0-alpha",
+                    "lotgd/module-gender": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-res-fight": "^0.4.0-alpha",
+                    "lotgd/module-scene-bundle": "^0.4.0-alpha",
+                    "lotgd/module-training": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2018-01-26T18:00:02+00:00",
+                "bin": [
+                    "bin/console"
+                ],
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/v0.4.0",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            }
+        },
+        "lotgd/module-dragon-kills": {
+            "v0.4.0": {
+                "name": "lotgd/module-dragon-kills",
+                "version": "v0.4.0",
+                "version_normalized": "0.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-dragon-kills.git",
+                    "reference": "b7ea6b59b5cd9753b77f338efdebef6d20d86bbf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-dragon-kills/zipball/b7ea6b59b5cd9753b77f338efdebef6d20d86bbf",
+                    "reference": "b7ea6b59b5cd9753b77f338efdebef6d20d86bbf",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-forest": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-res-fight": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-14T15:17:47+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\DragonKills\\": "src/",
+                        "LotGD\\Module\\DragonKills\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    },
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Track dragon kills in your realm.",
+                "homepage": "https://github.com/lotgd/module-dragon-kills",
+                "support": {
+                    "source": "https://github.com/lotgd/module-dragon-kills/tree/v0.4.0",
+                    "issues": "https://github.com/lotgd/module-dragon-kills/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/module-dragon-kills",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-dragon-kills.git",
+                    "reference": "7a92697e4d9c6805b68c03eb99cf1634536a89d4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-dragon-kills/zipball/7a92697e4d9c6805b68c03eb99cf1634536a89d4",
+                    "reference": "7a92697e4d9c6805b68c03eb99cf1634536a89d4",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "dev-master as v0.3.3-alpha",
+                    "lotgd/module-forest": "dev-master as v0.3.3-alpha",
+                    "lotgd/module-new-day": "dev-master as v0.3.3-alpha",
+                    "lotgd/module-res-fight": "dev-master as v0.3.3-alpha",
+                    "lotgd/module-village": "dev-master as v0.3.3-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-14T13:24:33+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\DragonKills\\": "src/",
+                        "LotGD\\Module\\DragonKills\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    },
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Track dragon kills in your realm.",
+                "homepage": "https://github.com/lotgd/module-dragon-kills",
+                "support": {
+                    "source": "https://github.com/lotgd/module-dragon-kills/tree/master",
+                    "issues": "https://github.com/lotgd/module-dragon-kills/issues"
+                }
+            },
+            "dev-version/0.4": {
+                "name": "lotgd/module-dragon-kills",
+                "version": "dev-version/0.4",
+                "version_normalized": "dev-version/0.4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-dragon-kills.git",
+                    "reference": "b7ea6b59b5cd9753b77f338efdebef6d20d86bbf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-dragon-kills/zipball/b7ea6b59b5cd9753b77f338efdebef6d20d86bbf",
+                    "reference": "b7ea6b59b5cd9753b77f338efdebef6d20d86bbf",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-forest": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-res-fight": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-14T15:17:47+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\DragonKills\\": "src/",
+                        "LotGD\\Module\\DragonKills\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    },
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Track dragon kills in your realm.",
+                "homepage": "https://github.com/lotgd/module-dragon-kills",
+                "support": {
+                    "source": "https://github.com/lotgd/module-dragon-kills/tree/v0.4.0",
+                    "issues": "https://github.com/lotgd/module-dragon-kills/issues"
+                }
+            }
+        },
+        "lotgd/module-forest": {
+            "v0.4.0": {
+                "name": "lotgd/module-forest",
+                "version": "v0.4.0",
+                "version_normalized": "0.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-forest.git",
+                    "reference": "d5dad9d6cd013a3d5cdfa1eece220c05e6a1f939"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-forest/zipball/d5dad9d6cd013a3d5cdfa1eece220c05e6a1f939",
+                    "reference": "d5dad9d6cd013a3d5cdfa1eece220c05e6a1f939",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-res-fight": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-14T15:08:02+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Forest\\": "src/",
+                        "LotGD\\Module\\Forest\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Adds a forest to the village where players can combat monsters and earn experience.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-forest/tree/v0.4.0",
+                    "issues": "https://github.com/lotgd/module-forest/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/module-forest",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-forest.git",
+                    "reference": "b793a5dd0c2674784246f355966a54fbee22158c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-forest/zipball/b793a5dd0c2674784246f355966a54fbee22158c",
+                    "reference": "b793a5dd0c2674784246f355966a54fbee22158c",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "dev-master as v0.3.3-alpha",
+                    "lotgd/module-new-day": "dev-master as v0.3.3-alpha",
+                    "lotgd/module-res-fight": "dev-master as v0.3.3-alpha",
+                    "lotgd/module-village": "dev-master as v0.3.3-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-14T12:14:07+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Forest\\": "src/",
+                        "LotGD\\Module\\Forest\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Adds a forest to the village where players can combat monsters and earn experience.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-forest/tree/master",
+                    "issues": "https://github.com/lotgd/module-forest/issues"
+                }
+            },
+            "dev-version/0.4": {
+                "name": "lotgd/module-forest",
+                "version": "dev-version/0.4",
+                "version_normalized": "dev-version/0.4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-forest.git",
+                    "reference": "d5dad9d6cd013a3d5cdfa1eece220c05e6a1f939"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-forest/zipball/d5dad9d6cd013a3d5cdfa1eece220c05e6a1f939",
+                    "reference": "d5dad9d6cd013a3d5cdfa1eece220c05e6a1f939",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-res-fight": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-14T15:08:02+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Forest\\": "src/",
+                        "LotGD\\Module\\Forest\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Adds a forest to the village where players can combat monsters and earn experience.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-forest/tree/v0.4.0",
+                    "issues": "https://github.com/lotgd/module-forest/issues"
+                }
+            }
+        },
+        "lotgd/module-forms": {
+            "v0.1.0-alpha": {
+                "name": "lotgd/module-forms",
+                "version": "v0.1.0-alpha",
+                "version_normalized": "0.1.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-forms.git",
+                    "reference": "4f67713eaa99a415ea40c7ab0ce4fcb6f1b88513"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-forms/zipball/4f67713eaa99a415ea40c7ab0ce4fcb6f1b88513",
+                    "reference": "4f67713eaa99a415ea40c7ab0ce4fcb6f1b88513",
+                    "shasum": ""
+                },
+                "require": {
+                    "myclabs/php-enum": "^1.4.2"
+                },
+                "time": "2016-09-17T06:47:00+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\Forms\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "Attachments that implement a simple form interface for user input.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-forms/tree/v0.1.0-alpha",
+                    "issues": "https://github.com/lotgd/module-forms/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/module-forms",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-forms.git",
+                    "reference": "4f67713eaa99a415ea40c7ab0ce4fcb6f1b88513"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-forms/zipball/4f67713eaa99a415ea40c7ab0ce4fcb6f1b88513",
+                    "reference": "4f67713eaa99a415ea40c7ab0ce4fcb6f1b88513",
+                    "shasum": ""
+                },
+                "require": {
+                    "myclabs/php-enum": "^1.4.2"
+                },
+                "time": "2016-09-17T06:47:00+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\Forms\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "Attachments that implement a simple form interface for user input.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-forms/tree/v0.1.0-alpha",
+                    "issues": "https://github.com/lotgd/module-forms/issues"
+                }
+            }
+        },
+        "lotgd/module-gender": {
+            "v0.3.0-alpha": {
+                "name": "lotgd/module-gender",
+                "version": "v0.3.0-alpha",
+                "version_normalized": "0.3.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-gender.git",
+                    "reference": "c25e3d8357e15f50f7aa170ae95868299ad9f91e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-gender/zipball/c25e3d8357e15f50f7aa170ae95868299ad9f91e",
+                    "reference": "c25e3d8357e15f50f7aa170ae95868299ad9f91e",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.1-alpha",
+                    "lotgd/module-new-day": "^0.3.1-alpha",
+                    "lotgd/module-village": "^0.3.1-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2017-09-12T13:11:28+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Gender\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Prompts the user with a selection for a gender at a new day.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-gender/tree/v0.3.0-alpha",
+                    "issues": "https://github.com/lotgd/module-gender/issues"
+                }
+            },
+            "v0.4.0-alpha": {
+                "name": "lotgd/module-gender",
+                "version": "v0.4.0-alpha",
+                "version_normalized": "0.4.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-gender.git",
+                    "reference": "312d9a9179d08e92db557734acc0b9be757110b1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-gender/zipball/312d9a9179d08e92db557734acc0b9be757110b1",
+                    "reference": "312d9a9179d08e92db557734acc0b9be757110b1",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-15T12:52:50+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Gender\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Prompts the user with a selection for a gender at a new day.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-gender/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/module-gender/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/module-gender",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-gender.git",
+                    "reference": "312d9a9179d08e92db557734acc0b9be757110b1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-gender/zipball/312d9a9179d08e92db557734acc0b9be757110b1",
+                    "reference": "312d9a9179d08e92db557734acc0b9be757110b1",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-15T12:52:50+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Gender\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Prompts the user with a selection for a gender at a new day.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-gender/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/module-gender/issues"
+                }
+            }
+        },
+        "lotgd/module-new-day": {
+            "v0.3.0-alpha": {
+                "name": "lotgd/module-new-day",
+                "version": "v0.3.0-alpha",
+                "version_normalized": "0.3.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-new-day.git",
+                    "reference": "50b620fdf3ad24fa605da235b702f51c95a21ed6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-new-day/zipball/50b620fdf3ad24fa605da235b702f51c95a21ed6",
+                    "reference": "50b620fdf3ad24fa605da235b702f51c95a21ed6",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.0-alpha",
+                    "lotgd/module-village": "^0.3.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2017-05-25T13:54:37+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\NewDay\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "A new day module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-new-day/tree/v0.3.0-alpha",
+                    "issues": "https://github.com/lotgd/module-new-day/issues"
+                }
+            },
+            "v0.3.1-alpha": {
+                "name": "lotgd/module-new-day",
+                "version": "v0.3.1-alpha",
+                "version_normalized": "0.3.1.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-new-day.git",
+                    "reference": "7622cc22c42f54c2db0556ba4ef9bb2d0a9a7f90"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-new-day/zipball/7622cc22c42f54c2db0556ba4ef9bb2d0a9a7f90",
+                    "reference": "7622cc22c42f54c2db0556ba4ef9bb2d0a9a7f90",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.1-alpha",
+                    "lotgd/module-village": "^0.3.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2017-06-26T07:24:06+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\NewDay\\": "src/",
+                        "LotGD\\Module\\NewDay\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "A new day module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-new-day/tree/v0.3.1-alpha",
+                    "issues": "https://github.com/lotgd/module-new-day/issues"
+                }
+            },
+            "v0.3.1.1-alpha": {
+                "name": "lotgd/module-new-day",
+                "version": "v0.3.1.1-alpha",
+                "version_normalized": "0.3.1.1-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-new-day.git",
+                    "reference": "9c5c2c01e7053533e0449592e5ac3d4c7173a341"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-new-day/zipball/9c5c2c01e7053533e0449592e5ac3d4c7173a341",
+                    "reference": "9c5c2c01e7053533e0449592e5ac3d4c7173a341",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.1-alpha",
+                    "lotgd/module-village": "^0.3.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2017-06-29T07:48:31+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\NewDay\\": "src/",
+                        "LotGD\\Module\\NewDay\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "A new day module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-new-day/tree/v0.3.1.1-alpha",
+                    "issues": "https://github.com/lotgd/module-new-day/issues"
+                }
+            },
+            "v0.3.2-alpha": {
+                "name": "lotgd/module-new-day",
+                "version": "v0.3.2-alpha",
+                "version_normalized": "0.3.2.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-new-day.git",
+                    "reference": "e17c504ad13d104a204e9a2fcca1f2628c521fcb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-new-day/zipball/e17c504ad13d104a204e9a2fcca1f2628c521fcb",
+                    "reference": "e17c504ad13d104a204e9a2fcca1f2628c521fcb",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.1-alpha",
+                    "lotgd/module-village": "^0.3.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2017-09-12T11:21:06+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\NewDay\\": "src/",
+                        "LotGD\\Module\\NewDay\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "A new day module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-new-day/tree/v0.3.2-alpha",
+                    "issues": "https://github.com/lotgd/module-new-day/issues"
+                }
+            },
+            "v0.4.0-alpha": {
+                "name": "lotgd/module-new-day",
+                "version": "v0.4.0-alpha",
+                "version_normalized": "0.4.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-new-day.git",
+                    "reference": "c18f1ee393398e78c4cd03a7d8d6b58e0e483c7a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-new-day/zipball/c18f1ee393398e78c4cd03a7d8d6b58e0e483c7a",
+                    "reference": "c18f1ee393398e78c4cd03a7d8d6b58e0e483c7a",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2018-01-14T14:34:48+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\NewDay\\": "src/",
+                        "LotGD\\Module\\NewDay\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "A new day module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-new-day/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/module-new-day/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/module-new-day",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-new-day.git",
+                    "reference": "8450594d8075e7b8b136a1a5ca075c6b643ace02"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-new-day/zipball/8450594d8075e7b8b136a1a5ca075c6b643ace02",
+                    "reference": "8450594d8075e7b8b136a1a5ca075c6b643ace02",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "dev-master as v0.3.3-alpha",
+                    "lotgd/module-village": "dev-master as v0.3.3-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2018-01-10T11:03:30+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\NewDay\\": "src/",
+                        "LotGD\\Module\\NewDay\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "A new day module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-new-day/tree/master",
+                    "issues": "https://github.com/lotgd/module-new-day/issues"
+                }
+            },
+            "dev-version/0.4": {
+                "name": "lotgd/module-new-day",
+                "version": "dev-version/0.4",
+                "version_normalized": "dev-version/0.4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-new-day.git",
+                    "reference": "c18f1ee393398e78c4cd03a7d8d6b58e0e483c7a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-new-day/zipball/c18f1ee393398e78c4cd03a7d8d6b58e0e483c7a",
+                    "reference": "c18f1ee393398e78c4cd03a7d8d6b58e0e483c7a",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2018-01-14T14:34:48+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\NewDay\\": "src/",
+                        "LotGD\\Module\\NewDay\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "A new day module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-new-day/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/module-new-day/issues"
+                }
+            }
+        },
+        "lotgd/module-project": {
+            "v0.3.0-alpha": {
+                "name": "lotgd/module-project",
+                "version": "v0.3.0-alpha",
+                "version_normalized": "0.3.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-project.git",
+                    "reference": "ef58425988fa48aaab7ae9d32f49b0a721efbdce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/ef58425988fa48aaab7ae9d32f49b0a721efbdce",
+                    "reference": "ef58425988fa48aaab7ae9d32f49b0a721efbdce",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2017-05-27T13:10:49+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "MyVendor\\MyNamespace\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    },
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Starter code for your own custom LotGD module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-project/tree/v0.3.0-alpha",
+                    "issues": "https://github.com/lotgd/module-project/issues"
+                }
+            },
+            "v0.4.0-alpha": {
+                "name": "lotgd/module-project",
+                "version": "v0.4.0-alpha",
+                "version_normalized": "0.4.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-project.git",
+                    "reference": "22d9edf47d5de551ad212011f35a91be136a40a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/22d9edf47d5de551ad212011f35a91be136a40a9",
+                    "reference": "22d9edf47d5de551ad212011f35a91be136a40a9",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-14T15:42:28+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "MyVendor\\MyNamespace\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    },
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Starter code for your own custom LotGD module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-project/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/module-project/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/module-project",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-project.git",
+                    "reference": "22d9edf47d5de551ad212011f35a91be136a40a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/22d9edf47d5de551ad212011f35a91be136a40a9",
+                    "reference": "22d9edf47d5de551ad212011f35a91be136a40a9",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-14T15:42:28+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "MyVendor\\MyNamespace\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    },
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Starter code for your own custom LotGD module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-project/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/module-project/issues"
+                }
+            }
+        },
+        "lotgd/module-res-fight": {
+            "v0.4.0": {
+                "name": "lotgd/module-res-fight",
+                "version": "v0.4.0",
+                "version_normalized": "0.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-res-fight.git",
+                    "reference": "0d4cad90955d9d95d6c9c962d49e03f568f98b73"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/0d4cad90955d9d95d6c9c962d49e03f568f98b73",
+                    "reference": "0d4cad90955d9d95d6c9c962d49e03f568f98b73",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-27T16:13:23+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Res\\Fight\\": "src/",
+                        "LotGD\\Module\\Res\\Fight\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "A resource module which provides basic fighting capabilities as well as hooks to extend them.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-res-fight/tree/v0.4.0",
+                    "issues": "https://github.com/lotgd/module-res-fight/issues"
+                }
+            },
+            "v0.4.0-alpha": {
+                "name": "lotgd/module-res-fight",
+                "version": "v0.4.0-alpha",
+                "version_normalized": "0.4.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-res-fight.git",
+                    "reference": "eb20c9aae9f6d64904bd47f51fc75555787d30c6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/eb20c9aae9f6d64904bd47f51fc75555787d30c6",
+                    "reference": "eb20c9aae9f6d64904bd47f51fc75555787d30c6",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-14T14:43:26+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Res\\Fight\\": "src/",
+                        "LotGD\\Module\\Res\\Fight\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "A resource module which provides basic fighting capabilities as well as hooks to extend them.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-res-fight/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/module-res-fight/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/module-res-fight",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-res-fight.git",
+                    "reference": "ab40838cd3076246971c24aff52d804e32e25bde"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/ab40838cd3076246971c24aff52d804e32e25bde",
+                    "reference": "ab40838cd3076246971c24aff52d804e32e25bde",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-27T17:22:07+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Res\\Fight\\": "src/",
+                        "LotGD\\Module\\Res\\Fight\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "A resource module which provides basic fighting capabilities as well as hooks to extend them.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-res-fight/tree/master",
+                    "issues": "https://github.com/lotgd/module-res-fight/issues"
+                }
+            },
+            "dev-version/0.4": {
+                "name": "lotgd/module-res-fight",
+                "version": "dev-version/0.4",
+                "version_normalized": "dev-version/0.4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-res-fight.git",
+                    "reference": "ab40838cd3076246971c24aff52d804e32e25bde"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/ab40838cd3076246971c24aff52d804e32e25bde",
+                    "reference": "ab40838cd3076246971c24aff52d804e32e25bde",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-27T17:22:07+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Res\\Fight\\": "src/",
+                        "LotGD\\Module\\Res\\Fight\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "A resource module which provides basic fighting capabilities as well as hooks to extend them.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-res-fight/tree/master",
+                    "issues": "https://github.com/lotgd/module-res-fight/issues"
+                }
+            }
+        },
+        "lotgd/module-scene-bundle": {
+            "v0.2.0-alpha": {
+                "name": "lotgd/module-scene-bundle",
+                "version": "v0.2.0-alpha",
+                "version_normalized": "0.2.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-scene-bundle.git",
+                    "reference": "b643b2fa75ec000138a79e77d0f8d7060ebd876b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-scene-bundle/zipball/b643b2fa75ec000138a79e77d0f8d7060ebd876b",
+                    "reference": "b643b2fa75ec000138a79e77d0f8d7060ebd876b",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.2-alpha",
+                    "lotgd/module-village": "^0.2-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2017-03-14T07:48:00+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\SceneBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A bundle of small scenes.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-scene-bundle/tree/v0.2.0-alpha",
+                    "issues": "https://github.com/lotgd/module-scene-bundle/issues"
+                }
+            },
+            "v0.3.0-alpha": {
+                "name": "lotgd/module-scene-bundle",
+                "version": "v0.3.0-alpha",
+                "version_normalized": "0.3.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-scene-bundle.git",
+                    "reference": "d4f606efe95fe3bc65f3ab8f06a8df7ab90d8d85"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-scene-bundle/zipball/d4f606efe95fe3bc65f3ab8f06a8df7ab90d8d85",
+                    "reference": "d4f606efe95fe3bc65f3ab8f06a8df7ab90d8d85",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.0-alpha",
+                    "lotgd/module-village": "^0.3.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2017-05-20T10:00:22+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\SceneBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A bundle of small scenes.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-scene-bundle/tree/v0.3.0-alpha",
+                    "issues": "https://github.com/lotgd/module-scene-bundle/issues"
+                }
+            },
+            "v0.3.1-alpha": {
+                "name": "lotgd/module-scene-bundle",
+                "version": "v0.3.1-alpha",
+                "version_normalized": "0.3.1.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-scene-bundle.git",
+                    "reference": "ee2bf3d4fc5dd550460bf2a6d0f036248038b4a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-scene-bundle/zipball/ee2bf3d4fc5dd550460bf2a6d0f036248038b4a9",
+                    "reference": "ee2bf3d4fc5dd550460bf2a6d0f036248038b4a9",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.0-alpha",
+                    "lotgd/module-village": "^0.3.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2017-09-12T08:28:12+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\SceneBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A bundle of small scenes.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-scene-bundle/tree/v0.3.1-alpha",
+                    "issues": "https://github.com/lotgd/module-scene-bundle/issues"
+                }
+            },
+            "v0.3.2-alpha": {
+                "name": "lotgd/module-scene-bundle",
+                "version": "v0.3.2-alpha",
+                "version_normalized": "0.3.2.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-scene-bundle.git",
+                    "reference": "69cab648eedb02d0096eb55440523226481127f3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-scene-bundle/zipball/69cab648eedb02d0096eb55440523226481127f3",
+                    "reference": "69cab648eedb02d0096eb55440523226481127f3",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.1-alpha",
+                    "lotgd/module-village": "^0.3.2-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2017-10-03T05:13:15+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\SceneBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A bundle of small scenes.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-scene-bundle/tree/v0.3.2-alpha",
+                    "issues": "https://github.com/lotgd/module-scene-bundle/issues"
+                }
+            },
+            "v0.4.0-alpha": {
+                "name": "lotgd/module-scene-bundle",
+                "version": "v0.4.0-alpha",
+                "version_normalized": "0.4.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-scene-bundle.git",
+                    "reference": "c6157216355042db2c4f9d1c14022c2543dc9d48"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-scene-bundle/zipball/c6157216355042db2c4f9d1c14022c2543dc9d48",
+                    "reference": "c6157216355042db2c4f9d1c14022c2543dc9d48",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-14T15:39:14+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\SceneBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A bundle of small scenes.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-scene-bundle/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/module-scene-bundle/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/module-scene-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-scene-bundle.git",
+                    "reference": "c6157216355042db2c4f9d1c14022c2543dc9d48"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-scene-bundle/zipball/c6157216355042db2c4f9d1c14022c2543dc9d48",
+                    "reference": "c6157216355042db2c4f9d1c14022c2543dc9d48",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-14T15:39:14+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\SceneBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A bundle of small scenes.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-scene-bundle/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/module-scene-bundle/issues"
+                }
+            },
+            "dev-version/0.2": {
+                "name": "lotgd/module-scene-bundle",
+                "version": "dev-version/0.2",
+                "version_normalized": "dev-version/0.2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-scene-bundle.git",
+                    "reference": "b643b2fa75ec000138a79e77d0f8d7060ebd876b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-scene-bundle/zipball/b643b2fa75ec000138a79e77d0f8d7060ebd876b",
+                    "reference": "b643b2fa75ec000138a79e77d0f8d7060ebd876b",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.2-alpha",
+                    "lotgd/module-village": "^0.2-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2017-03-14T07:48:00+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\SceneBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A bundle of small scenes.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-scene-bundle/tree/v0.2.0-alpha",
+                    "issues": "https://github.com/lotgd/module-scene-bundle/issues"
+                }
+            },
+            "dev-version/0.3": {
+                "name": "lotgd/module-scene-bundle",
+                "version": "dev-version/0.3",
+                "version_normalized": "dev-version/0.3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-scene-bundle.git",
+                    "reference": "ee2bf3d4fc5dd550460bf2a6d0f036248038b4a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-scene-bundle/zipball/ee2bf3d4fc5dd550460bf2a6d0f036248038b4a9",
+                    "reference": "ee2bf3d4fc5dd550460bf2a6d0f036248038b4a9",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.0-alpha",
+                    "lotgd/module-village": "^0.3.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2017-09-12T08:28:12+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\SceneBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A bundle of small scenes.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-scene-bundle/tree/v0.3.1-alpha",
+                    "issues": "https://github.com/lotgd/module-scene-bundle/issues"
+                }
+            },
+            "dev-version/0.4": {
+                "name": "lotgd/module-scene-bundle",
+                "version": "dev-version/0.4",
+                "version_normalized": "dev-version/0.4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-scene-bundle.git",
+                    "reference": "bac9837f2cddf34031f277408bb2c502529047ff"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-scene-bundle/zipball/bac9837f2cddf34031f277408bb2c502529047ff",
+                    "reference": "bac9837f2cddf34031f277408bb2c502529047ff",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-14T15:31:19+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\SceneBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A bundle of small scenes.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-scene-bundle/tree/version/0.4",
+                    "issues": "https://github.com/lotgd/module-scene-bundle/issues"
+                }
+            }
+        },
+        "lotgd/module-simple-inventory": {
+            "dev-master": {
+                "name": "lotgd/module-simple-inventory",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-simple-inventory.git",
+                    "reference": "92df2fe5a360e92bb999c371d0973a6534c124e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-simple-inventory/zipball/92df2fe5a360e92bb999c371d0973a6534c124e2",
+                    "reference": "92df2fe5a360e92bb999c371d0973a6534c124e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "0.1.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2016-12-31T22:55:58+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\SimpleInventory\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "Constants and models for defining weapons and armor for Characters.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-simple-inventory/tree/master",
+                    "issues": "https://github.com/lotgd/module-simple-inventory/issues"
+                }
+            }
+        },
+        "lotgd/module-simple-wealth": {
+            "dev-master": {
+                "name": "lotgd/module-simple-wealth",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-simple-wealth.git",
+                    "reference": "0c85c9918d297703decde260ffea8def59162014"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-simple-wealth/zipball/0c85c9918d297703decde260ffea8def59162014",
+                    "reference": "0c85c9918d297703decde260ffea8def59162014",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "0.1.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2016-12-31T22:58:15+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\SimpleWealth\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "Gold and gem tracking for users.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-simple-wealth/tree/master",
+                    "issues": "https://github.com/lotgd/module-simple-wealth/issues"
+                }
+            }
+        },
+        "lotgd/module-training": {
+            "v0.4.0": {
+                "name": "lotgd/module-training",
+                "version": "v0.4.0",
+                "version_normalized": "0.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-training.git",
+                    "reference": "f456e58579cde84a500d343eb887bf3d4b2eb72d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-training/zipball/f456e58579cde84a500d343eb887bf3d4b2eb72d",
+                    "reference": "f456e58579cde84a500d343eb887bf3d4b2eb72d",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-res-fight": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-14T15:14:02+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Training\\": "src/",
+                        "LotGD\\Module\\Training\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Provides warrior training for players to level up.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-training/tree/v0.4.0",
+                    "issues": "https://github.com/lotgd/module-training/issues"
+                }
+            },
+            "v0.4.1": {
+                "name": "lotgd/module-training",
+                "version": "v0.4.1",
+                "version_normalized": "0.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-training.git",
+                    "reference": "79ad607677b9b27479d064bbfd36aed047748552"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-training/zipball/79ad607677b9b27479d064bbfd36aed047748552",
+                    "reference": "79ad607677b9b27479d064bbfd36aed047748552",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-res-fight": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-27T16:35:57+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Training\\": "src/",
+                        "LotGD\\Module\\Training\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Provides warrior training for players to level up.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-training/tree/v0.4.1",
+                    "issues": "https://github.com/lotgd/module-training/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/module-training",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-training.git",
+                    "reference": "79ad607677b9b27479d064bbfd36aed047748552"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-training/zipball/79ad607677b9b27479d064bbfd36aed047748552",
+                    "reference": "79ad607677b9b27479d064bbfd36aed047748552",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-res-fight": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-27T16:35:57+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Training\\": "src/",
+                        "LotGD\\Module\\Training\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Provides warrior training for players to level up.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-training/tree/v0.4.1",
+                    "issues": "https://github.com/lotgd/module-training/issues"
+                }
+            },
+            "dev-version/0.4": {
+                "name": "lotgd/module-training",
+                "version": "dev-version/0.4",
+                "version_normalized": "dev-version/0.4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-training.git",
+                    "reference": "79ad607677b9b27479d064bbfd36aed047748552"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-training/zipball/79ad607677b9b27479d064bbfd36aed047748552",
+                    "reference": "79ad607677b9b27479d064bbfd36aed047748552",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-res-fight": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-27T16:35:57+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Training\\": "src/",
+                        "LotGD\\Module\\Training\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Provides warrior training for players to level up.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-training/tree/v0.4.1",
+                    "issues": "https://github.com/lotgd/module-training/issues"
+                }
+            }
+        },
+        "lotgd/module-village": {
+            "v0.2.0-alpha": {
+                "name": "lotgd/module-village",
+                "version": "v0.2.0-alpha",
+                "version_normalized": "0.2.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "e14bb4bf6243f079022cc0432db8466f066f93db"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/e14bb4bf6243f079022cc0432db8466f066f93db",
+                    "reference": "e14bb4bf6243f079022cc0432db8466f066f93db",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.2-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0"
+                },
+                "time": "2017-03-14T07:41:49+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.2.0-alpha",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
+            },
+            "v0.3.0-alpha": {
+                "name": "lotgd/module-village",
+                "version": "v0.3.0-alpha",
+                "version_normalized": "0.3.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "f21196a09c59d290265ccdc722ddaf7b2152f1fe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/f21196a09c59d290265ccdc722ddaf7b2152f1fe",
+                    "reference": "f21196a09c59d290265ccdc722ddaf7b2152f1fe",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "dev-master"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0"
+                },
+                "time": "2017-04-30T12:20:42+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.3.0-alpha",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
+            },
+            "v0.3.1-alpha": {
+                "name": "lotgd/module-village",
+                "version": "v0.3.1-alpha",
+                "version_normalized": "0.3.1.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "c4f398387c60ba1f20c6aa75816448d3164b01e0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/c4f398387c60ba1f20c6aa75816448d3164b01e0",
+                    "reference": "c4f398387c60ba1f20c6aa75816448d3164b01e0",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0"
+                },
+                "time": "2017-04-30T12:56:29+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.3.1-alpha",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
+            },
+            "v0.3.2-alpha": {
+                "name": "lotgd/module-village",
+                "version": "v0.3.2-alpha",
+                "version_normalized": "0.3.2.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "5238c0d62f5a040052c3bc92f42cfcec98ee77d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/5238c0d62f5a040052c3bc92f42cfcec98ee77d3",
+                    "reference": "5238c0d62f5a040052c3bc92f42cfcec98ee77d3",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0"
+                },
+                "time": "2017-09-12T08:10:30+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.3.2-alpha",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
+            },
+            "v0.4.0-alpha": {
+                "name": "lotgd/module-village",
+                "version": "v0.4.0-alpha",
+                "version_normalized": "0.4.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "6d917f9c7cedf58468ebba4deec045cf8d53b68e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/6d917f9c7cedf58468ebba4deec045cf8d53b68e",
+                    "reference": "6d917f9c7cedf58468ebba4deec045cf8d53b68e",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0"
+                },
+                "time": "2018-01-14T14:29:00+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/module-village",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "5238c0d62f5a040052c3bc92f42cfcec98ee77d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/5238c0d62f5a040052c3bc92f42cfcec98ee77d3",
+                    "reference": "5238c0d62f5a040052c3bc92f42cfcec98ee77d3",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0"
+                },
+                "time": "2017-09-12T08:10:30+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.3.2-alpha",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
+            },
+            "dev-version/0.2": {
+                "name": "lotgd/module-village",
+                "version": "dev-version/0.2",
+                "version_normalized": "dev-version/0.2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "e14bb4bf6243f079022cc0432db8466f066f93db"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/e14bb4bf6243f079022cc0432db8466f066f93db",
+                    "reference": "e14bb4bf6243f079022cc0432db8466f066f93db",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.2-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0"
+                },
+                "time": "2017-03-14T07:41:49+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.2.0-alpha",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
+            },
+            "dev-version/0.3": {
+                "name": "lotgd/module-village",
+                "version": "dev-version/0.3",
+                "version_normalized": "dev-version/0.3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "c4f398387c60ba1f20c6aa75816448d3164b01e0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/c4f398387c60ba1f20c6aa75816448d3164b01e0",
+                    "reference": "c4f398387c60ba1f20c6aa75816448d3164b01e0",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0"
+                },
+                "time": "2017-04-30T12:56:29+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.3.1-alpha",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
+            },
+            "dev-version/0.4": {
+                "name": "lotgd/module-village",
+                "version": "dev-version/0.4",
+                "version_normalized": "dev-version/0.4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "6d917f9c7cedf58468ebba4deec045cf8d53b68e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/6d917f9c7cedf58468ebba4deec045cf8d53b68e",
+                    "reference": "6d917f9c7cedf58468ebba4deec045cf8d53b68e",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0"
+                },
+                "time": "2018-01-14T14:29:00+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
+            }
+        },
+        "lotgd/module-weapon-shop": {
+            "dev-master": {
+                "name": "lotgd/module-weapon-shop",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-weapon-shop.git",
+                    "reference": "4064967b2b103b709b11135c45f4847865f14a8c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-weapon-shop/zipball/4064967b2b103b709b11135c45f4847865f14a8c",
+                    "reference": "4064967b2b103b709b11135c45f4847865f14a8c",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "0.1.0-alpha",
+                    "lotgd/module-forms": "dev-master",
+                    "lotgd/module-simple-inventory": "dev-master",
+                    "lotgd/module-simple-wealth": "dev-master"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2017-01-02T06:11:16+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\WeaponShop\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "The village weapon shop.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-weapon-shop/tree/master",
+                    "issues": "https://github.com/lotgd/module-weapon-shop/issues"
+                }
+            }
+        }
+    }
+}
