@@ -2196,25 +2196,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-forest.git",
-                    "reference": "d5dad9d6cd013a3d5cdfa1eece220c05e6a1f939"
+                    "reference": "98ee91cf49ac90672f26212564b4c3d6b30e619f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-forest/zipball/d5dad9d6cd013a3d5cdfa1eece220c05e6a1f939",
-                    "reference": "d5dad9d6cd013a3d5cdfa1eece220c05e6a1f939",
+                    "url": "https://api.github.com/repos/lotgd/module-forest/zipball/98ee91cf49ac90672f26212564b4c3d6b30e619f",
+                    "reference": "98ee91cf49ac90672f26212564b4c3d6b30e619f",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/core": "dev-feature/symfony4 as 0.4.3",
                     "lotgd/module-new-day": "^0.4.0-alpha",
-                    "lotgd/module-res-fight": "^0.4.0-alpha",
+                    "lotgd/module-res-fight": "dev-master",
                     "lotgd/module-village": "^0.4.0-alpha"
                 },
                 "require-dev": {
                     "phpunit/dbunit": "*",
                     "phpunit/phpunit": "^4.1|^5.1"
                 },
-                "time": "2018-01-14T15:08:02+00:00",
+                "time": "2019-03-22T14:19:43+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -2233,7 +2233,7 @@
                 ],
                 "description": "Adds a forest to the village where players can combat monsters and earn experience.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-forest/tree/v0.4.0",
+                    "source": "https://github.com/lotgd/module-forest/tree/master",
                     "issues": "https://github.com/lotgd/module-forest/issues"
                 }
             },
