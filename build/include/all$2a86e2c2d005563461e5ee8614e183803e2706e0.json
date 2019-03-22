@@ -2196,25 +2196,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-forest.git",
-                    "reference": "b793a5dd0c2674784246f355966a54fbee22158c"
+                    "reference": "d5dad9d6cd013a3d5cdfa1eece220c05e6a1f939"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-forest/zipball/b793a5dd0c2674784246f355966a54fbee22158c",
-                    "reference": "b793a5dd0c2674784246f355966a54fbee22158c",
+                    "url": "https://api.github.com/repos/lotgd/module-forest/zipball/d5dad9d6cd013a3d5cdfa1eece220c05e6a1f939",
+                    "reference": "d5dad9d6cd013a3d5cdfa1eece220c05e6a1f939",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": "dev-master as v0.3.3-alpha",
-                    "lotgd/module-new-day": "dev-master as v0.3.3-alpha",
-                    "lotgd/module-res-fight": "dev-master as v0.3.3-alpha",
-                    "lotgd/module-village": "dev-master as v0.3.3-alpha"
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-res-fight": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
                 },
                 "require-dev": {
                     "phpunit/dbunit": "*",
                     "phpunit/phpunit": "^4.1|^5.1"
                 },
-                "time": "2018-01-14T12:14:07+00:00",
+                "time": "2018-01-14T15:08:02+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -2233,7 +2233,7 @@
                 ],
                 "description": "Adds a forest to the village where players can combat monsters and earn experience.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-forest/tree/master",
+                    "source": "https://github.com/lotgd/module-forest/tree/v0.4.0",
                     "issues": "https://github.com/lotgd/module-forest/issues"
                 }
             },
@@ -3079,16 +3079,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-res-fight.git",
-                    "reference": "ab40838cd3076246971c24aff52d804e32e25bde"
+                    "reference": "10d9b975c80fa9d9dfdccf5813458ef14b5a8855"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/ab40838cd3076246971c24aff52d804e32e25bde",
-                    "reference": "ab40838cd3076246971c24aff52d804e32e25bde",
+                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/10d9b975c80fa9d9dfdccf5813458ef14b5a8855",
+                    "reference": "10d9b975c80fa9d9dfdccf5813458ef14b5a8855",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/core": "dev-feature/symfony4 as 0.4.3",
                     "lotgd/module-new-day": "^0.4.0-alpha",
                     "lotgd/module-village": "^0.4.0-alpha"
                 },
@@ -3096,7 +3096,7 @@
                     "phpunit/dbunit": "*",
                     "phpunit/phpunit": "^4.1|^5.1"
                 },
-                "time": "2018-01-27T17:22:07+00:00",
+                "time": "2019-03-22T12:09:00+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
