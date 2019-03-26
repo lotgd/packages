@@ -3130,24 +3130,24 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-res-fight.git",
-                    "reference": "10d9b975c80fa9d9dfdccf5813458ef14b5a8855"
+                    "reference": "22d6083cce6c1f1809bf9e112d754d94148a9060"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/10d9b975c80fa9d9dfdccf5813458ef14b5a8855",
-                    "reference": "10d9b975c80fa9d9dfdccf5813458ef14b5a8855",
+                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/22d6083cce6c1f1809bf9e112d754d94148a9060",
+                    "reference": "22d6083cce6c1f1809bf9e112d754d94148a9060",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": "dev-feature/symfony4 as 0.4.3",
-                    "lotgd/module-new-day": "^0.4.0-alpha",
-                    "lotgd/module-village": "^0.4.0-alpha"
+                    "lotgd/core": ">0.5",
+                    "lotgd/module-new-day": ">0.4.0-alpha",
+                    "lotgd/module-village": ">0.4.0-alpha"
                 },
                 "require-dev": {
                     "phpunit/dbunit": "*",
                     "phpunit/phpunit": "^4.1|^5.1"
                 },
-                "time": "2019-03-22T12:09:00+00:00",
+                "time": "2019-03-26T09:16:21+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
