@@ -2796,23 +2796,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-new-day.git",
-                    "reference": "8450594d8075e7b8b136a1a5ca075c6b643ace02"
+                    "reference": "c18f1ee393398e78c4cd03a7d8d6b58e0e483c7a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-new-day/zipball/8450594d8075e7b8b136a1a5ca075c6b643ace02",
-                    "reference": "8450594d8075e7b8b136a1a5ca075c6b643ace02",
+                    "url": "https://api.github.com/repos/lotgd/module-new-day/zipball/c18f1ee393398e78c4cd03a7d8d6b58e0e483c7a",
+                    "reference": "c18f1ee393398e78c4cd03a7d8d6b58e0e483c7a",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": "dev-master as v0.3.3-alpha",
-                    "lotgd/module-village": "dev-master as v0.3.3-alpha"
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
                 },
                 "require-dev": {
                     "phpunit/dbunit": "^2.0",
                     "phpunit/phpunit": "^5.0"
                 },
-                "time": "2018-01-10T11:03:30+00:00",
+                "time": "2018-01-14T14:34:48+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -2831,7 +2831,7 @@
                 ],
                 "description": "A new day module.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-new-day/tree/master",
+                    "source": "https://github.com/lotgd/module-new-day/tree/v0.4.0-alpha",
                     "issues": "https://github.com/lotgd/module-new-day/issues"
                 }
             },
@@ -3471,23 +3471,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-scene-bundle.git",
-                    "reference": "8f85819761afaf966ed24b7ea3ec69affa7258b3"
+                    "reference": "d85dbc3194103bb59c605f8f0a80f8582230e1fa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-scene-bundle/zipball/8f85819761afaf966ed24b7ea3ec69affa7258b3",
-                    "reference": "8f85819761afaf966ed24b7ea3ec69affa7258b3",
+                    "url": "https://api.github.com/repos/lotgd/module-scene-bundle/zipball/d85dbc3194103bb59c605f8f0a80f8582230e1fa",
+                    "reference": "d85dbc3194103bb59c605f8f0a80f8582230e1fa",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": ">=0.4.0-alpha",
-                    "lotgd/module-village": ">=0.4.0-alpha"
+                    "lotgd/core": ">=0.5",
+                    "lotgd/module-village": ">=0.4"
                 },
                 "require-dev": {
                     "phpunit/dbunit": "*",
                     "phpunit/phpunit": "^4.1|^5.1"
                 },
-                "time": "2019-03-25T15:31:20+00:00",
+                "time": "2019-03-26T08:06:00+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
