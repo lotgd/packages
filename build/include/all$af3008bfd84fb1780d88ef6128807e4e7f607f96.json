@@ -2247,25 +2247,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-forest.git",
-                    "reference": "98ee91cf49ac90672f26212564b4c3d6b30e619f"
+                    "reference": "5ad4ac0a1a5b48093694a880ea0987a915e6333f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-forest/zipball/98ee91cf49ac90672f26212564b4c3d6b30e619f",
-                    "reference": "98ee91cf49ac90672f26212564b4c3d6b30e619f",
+                    "url": "https://api.github.com/repos/lotgd/module-forest/zipball/5ad4ac0a1a5b48093694a880ea0987a915e6333f",
+                    "reference": "5ad4ac0a1a5b48093694a880ea0987a915e6333f",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": "dev-feature/symfony4 as 0.4.3",
-                    "lotgd/module-new-day": "^0.4.0-alpha",
-                    "lotgd/module-res-fight": "dev-master",
-                    "lotgd/module-village": "^0.4.0-alpha"
+                    "lotgd/core": ">=0.5",
+                    "lotgd/module-new-day": ">=0.4.0-alpha",
+                    "lotgd/module-res-fight": ">=0.4.0-alpha",
+                    "lotgd/module-village": ">=0.4.0-alpha"
                 },
                 "require-dev": {
                     "phpunit/dbunit": "*",
                     "phpunit/phpunit": "^4.1|^5.1"
                 },
-                "time": "2019-03-22T14:19:43+00:00",
+                "time": "2019-03-26T09:55:58+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
