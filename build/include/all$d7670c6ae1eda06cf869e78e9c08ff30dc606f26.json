@@ -2796,23 +2796,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-new-day.git",
-                    "reference": "c18f1ee393398e78c4cd03a7d8d6b58e0e483c7a"
+                    "reference": "516a788733fa2e375747d569f56af334666970d6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-new-day/zipball/c18f1ee393398e78c4cd03a7d8d6b58e0e483c7a",
-                    "reference": "c18f1ee393398e78c4cd03a7d8d6b58e0e483c7a",
+                    "url": "https://api.github.com/repos/lotgd/module-new-day/zipball/516a788733fa2e375747d569f56af334666970d6",
+                    "reference": "516a788733fa2e375747d569f56af334666970d6",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": "^0.4.0-alpha",
-                    "lotgd/module-village": "^0.4.0-alpha"
+                    "lotgd/core": ">=0.5",
+                    "lotgd/module-village": ">=0.4.0-alpha"
                 },
                 "require-dev": {
                     "phpunit/dbunit": "^2.0",
                     "phpunit/phpunit": "^5.0"
                 },
-                "time": "2018-01-14T14:34:48+00:00",
+                "time": "2019-03-26T09:01:07+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -2831,7 +2831,7 @@
                 ],
                 "description": "A new day module.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-new-day/tree/v0.4.0-alpha",
+                    "source": "https://github.com/lotgd/module-new-day/tree/master",
                     "issues": "https://github.com/lotgd/module-new-day/issues"
                 }
             },
