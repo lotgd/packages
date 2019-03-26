@@ -459,12 +459,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/core.git",
-                    "reference": "6da658c3d89355a50d59c206c7d4e3f976899ac0"
+                    "reference": "b74472221c898fc5c7a458cfa8c15459524dd74d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/core/zipball/6da658c3d89355a50d59c206c7d4e3f976899ac0",
-                    "reference": "6da658c3d89355a50d59c206c7d4e3f976899ac0",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/b74472221c898fc5c7a458cfa8c15459524dd74d",
+                    "reference": "b74472221c898fc5c7a458cfa8c15459524dd74d",
                     "shasum": ""
                 },
                 "require": {
@@ -483,7 +483,7 @@
                     "phpunit/dbunit": "^2.0",
                     "phpunit/phpunit": "^5.0"
                 },
-                "time": "2019-03-22T17:29:06+00:00",
+                "time": "2019-03-26T11:27:24+00:00",
                 "bin": [
                     "bin/daenerys"
                 ],
