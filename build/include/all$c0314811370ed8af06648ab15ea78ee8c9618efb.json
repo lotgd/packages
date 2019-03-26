@@ -2519,24 +2519,24 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-gender.git",
-                    "reference": "312d9a9179d08e92db557734acc0b9be757110b1"
+                    "reference": "9f0cfe6b245183656b517d7644007a621cc3bf1d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-gender/zipball/312d9a9179d08e92db557734acc0b9be757110b1",
-                    "reference": "312d9a9179d08e92db557734acc0b9be757110b1",
+                    "url": "https://api.github.com/repos/lotgd/module-gender/zipball/9f0cfe6b245183656b517d7644007a621cc3bf1d",
+                    "reference": "9f0cfe6b245183656b517d7644007a621cc3bf1d",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": "^0.4.0-alpha",
-                    "lotgd/module-new-day": "^0.4.0-alpha",
-                    "lotgd/module-village": "^0.4.0-alpha"
+                    "lotgd/core": ">=0.5",
+                    "lotgd/module-new-day": ">=0.4.0-alpha",
+                    "lotgd/module-village": ">=0.4.0-alpha"
                 },
                 "require-dev": {
                     "phpunit/dbunit": "*",
                     "phpunit/phpunit": "^4.1|^5.1"
                 },
-                "time": "2018-01-15T12:52:50+00:00",
+                "time": "2019-03-26T09:11:11+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -2554,7 +2554,7 @@
                 ],
                 "description": "Prompts the user with a selection for a gender at a new day.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-gender/tree/v0.4.0-alpha",
+                    "source": "https://github.com/lotgd/module-gender/tree/master",
                     "issues": "https://github.com/lotgd/module-gender/issues"
                 }
             }
