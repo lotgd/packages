@@ -14,9 +14,11 @@
         { "type": "vcs", "url": "https://github.com/lotgd/module-new-day" },
         { "type": "vcs", "url": "https://github.com/lotgd/module-gender" },
         { "type": "vcs", "url": "https://github.com/lotgd/module-res-fight" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-res-charstats" },
         { "type": "vcs", "url": "https://github.com/lotgd/module-forest" },
         { "type": "vcs", "url": "https://github.com/lotgd/module-training" },
-        { "type": "vcs", "url": "https://github.com/lotgd/crate-graphql" }
+        { "type": "vcs", "url": "https://github.com/lotgd/crate-graphql" },
+        { "type": "vcs", "url": "https://github.com/lotgd/crate-html" }
     ],
     "require-all": true
 }

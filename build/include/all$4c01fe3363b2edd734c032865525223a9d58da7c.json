@@ -2078,6 +2078,118 @@
                 }
             }
         },
+        "lotgd/crate-html": {
+            "dev-master": {
+                "name": "lotgd/crate-html",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-html.git",
+                    "reference": "78b744121d383b87dbdb915c3dfe1664f6451ae5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-html/zipball/78b744121d383b87dbdb915c3dfe1664f6451ae5",
+                    "reference": "78b744121d383b87dbdb915c3dfe1664f6451ae5",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "lotgd/core": "dev-feature/symfony4 as 0.4.2",
+                    "php": "^7.1.3",
+                    "sensio/framework-extra-bundle": "^5.2",
+                    "symfony/asset": "4.2.*",
+                    "symfony/console": "4.2.*",
+                    "symfony/dotenv": "4.2.*",
+                    "symfony/expression-language": "4.2.*",
+                    "symfony/flex": "^1.1",
+                    "symfony/form": "4.2.*",
+                    "symfony/framework-bundle": "4.2.*",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/orm-pack": "*",
+                    "symfony/process": "4.2.*",
+                    "symfony/security": "4.2.*",
+                    "symfony/security-bundle": "4.2.*",
+                    "symfony/serializer-pack": "*",
+                    "symfony/swiftmailer-bundle": "^3.1",
+                    "symfony/translation": "4.2.*",
+                    "symfony/twig-bundle": "4.2.*",
+                    "symfony/validator": "4.2.*",
+                    "symfony/web-link": "4.2.*",
+                    "symfony/yaml": "4.2.*"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "lotgd/module-forest": "dev-master",
+                    "lotgd/module-gender": "^0.4.0@alpha",
+                    "lotgd/module-new-day": "^0.4.0@alpha",
+                    "lotgd/module-res-fight": "*",
+                    "lotgd/module-scene-bundle": "^0.4.0@alpha",
+                    "lotgd/module-village": "^0.4.0@alpha",
+                    "symfony/debug-pack": "*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/profiler-pack": "*",
+                    "symfony/test-pack": "*",
+                    "symfony/web-server-bundle": "4.2.*"
+                },
+                "time": "2019-03-22T15:11:19+00:00",
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "4.2.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\WWW\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\WWW\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    },
+                    "post-install-cmd": [
+                        "@auto-scripts"
+                    ],
+                    "post-update-cmd": [
+                        "@auto-scripts"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Adapts the lotgd/core engine and provides a web interface to play the game.",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-html/tree/master",
+                    "issues": "https://github.com/lotgd/crate-html/issues"
+                }
+            }
+        },
         "lotgd/module-dragon-kills": {
             "v0.4.0": {
                 "name": "lotgd/module-dragon-kills",
@@ -3076,6 +3188,53 @@
                 "support": {
                     "source": "https://github.com/lotgd/module-project/tree/master",
                     "issues": "https://github.com/lotgd/module-project/issues"
+                }
+            }
+        },
+        "lotgd/module-res-charstats": {
+            "dev-master": {
+                "name": "lotgd/module-res-charstats",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-res-charstats.git",
+                    "reference": "d38211910213c9127c64689775b6e91731c2267c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-res-charstats/zipball/d38211910213c9127c64689775b6e91731c2267c",
+                    "reference": "d38211910213c9127c64689775b6e91731c2267c",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": ">=0.5.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2019-04-03T15:30:11+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Res\\Charstats\\": "src/",
+                        "LotGD\\Module\\Res\\Charstats\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "This module adds basic stats to the default character stats of lotgd/core",
+                "support": {
+                    "source": "https://github.com/lotgd/module-res-charstats/tree/master",
+                    "issues": "https://github.com/lotgd/module-res-charstats/issues"
                 }
             }
         },
