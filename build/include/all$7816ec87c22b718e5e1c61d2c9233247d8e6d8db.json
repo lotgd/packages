@@ -408,12 +408,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/core.git",
-                    "reference": "d7100deb0f2d2af6b34dc21ebcc172ae2d36de2e"
+                    "reference": "4d1ab9e7634596c353d61ff90ce4ce31bf666721"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/core/zipball/d7100deb0f2d2af6b34dc21ebcc172ae2d36de2e",
-                    "reference": "d7100deb0f2d2af6b34dc21ebcc172ae2d36de2e",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/4d1ab9e7634596c353d61ff90ce4ce31bf666721",
+                    "reference": "4d1ab9e7634596c353d61ff90ce4ce31bf666721",
                     "shasum": ""
                 },
                 "require": {
@@ -432,7 +432,7 @@
                     "phpunit/dbunit": "^2.0",
                     "phpunit/phpunit": "^5.0"
                 },
-                "time": "2019-03-22T15:26:53+00:00",
+                "time": "2019-04-02T19:12:02+00:00",
                 "bin": [
                     "bin/daenerys"
                 ],
@@ -448,7 +448,7 @@
                 ],
                 "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
                 "support": {
-                    "source": "https://github.com/lotgd/core/tree/master",
+                    "source": "https://github.com/lotgd/core/tree/feature/admin-commands",
                     "issues": "https://github.com/lotgd/core/issues"
                 }
             },
@@ -551,6 +551,57 @@
                 "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
                 "support": {
                     "source": "https://github.com/lotgd/core/tree/feature/attachment",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-feature/character-stats": {
+                "name": "lotgd/core",
+                "version": "dev-feature/character-stats",
+                "version_normalized": "dev-feature/character-stats",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "248258a8fec2817f632089f614f4a4ac13e3b124"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/248258a8fec2817f632089f614f4a4ac13e3b124",
+                    "reference": "248258a8fec2817f632089f614f4a4ac13e3b124",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "^2.5",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "ramsey/uuid-doctrine": "^1.5",
+                    "symfony/console": "^3.0|^4.0",
+                    "symfony/yaml": "^3.0|^4.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2019-04-03T14:17:36+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/feature/character-stats",
                     "issues": "https://github.com/lotgd/core/issues"
                 }
             },
