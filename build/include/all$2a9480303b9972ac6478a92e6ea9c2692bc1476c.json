@@ -3199,12 +3199,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-res-charstats.git",
-                    "reference": "dd1634b30a88a30e0092f18e6c24f1bc57f194a8"
+                    "reference": "72f38c1b90778018d55ea28fd9e479a943227fc6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-res-charstats/zipball/dd1634b30a88a30e0092f18e6c24f1bc57f194a8",
-                    "reference": "dd1634b30a88a30e0092f18e6c24f1bc57f194a8",
+                    "url": "https://api.github.com/repos/lotgd/module-res-charstats/zipball/72f38c1b90778018d55ea28fd9e479a943227fc6",
+                    "reference": "72f38c1b90778018d55ea28fd9e479a943227fc6",
                     "shasum": ""
                 },
                 "require": {
@@ -3214,7 +3214,7 @@
                     "phpunit/dbunit": "*",
                     "phpunit/phpunit": "^4.1|^5.1"
                 },
-                "time": "2019-04-04T15:38:39+00:00",
+                "time": "2019-04-04T15:43:43+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
