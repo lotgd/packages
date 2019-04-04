@@ -408,12 +408,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/core.git",
-                    "reference": "4d1ab9e7634596c353d61ff90ce4ce31bf666721"
+                    "reference": "353c4251c4be531de15b882bc452ee20939a7eb9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/core/zipball/4d1ab9e7634596c353d61ff90ce4ce31bf666721",
-                    "reference": "4d1ab9e7634596c353d61ff90ce4ce31bf666721",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/353c4251c4be531de15b882bc452ee20939a7eb9",
+                    "reference": "353c4251c4be531de15b882bc452ee20939a7eb9",
                     "shasum": ""
                 },
                 "require": {
@@ -432,7 +432,7 @@
                     "phpunit/dbunit": "^2.0",
                     "phpunit/phpunit": "^5.0"
                 },
-                "time": "2019-04-02T19:12:02+00:00",
+                "time": "2019-04-03T15:25:21+00:00",
                 "bin": [
                     "bin/daenerys"
                 ],
@@ -448,7 +448,7 @@
                 ],
                 "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
                 "support": {
-                    "source": "https://github.com/lotgd/core/tree/feature/admin-commands",
+                    "source": "https://github.com/lotgd/core/tree/feature/character-stats",
                     "issues": "https://github.com/lotgd/core/issues"
                 }
             },
