@@ -3391,16 +3391,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-res-fight.git",
-                    "reference": "22d6083cce6c1f1809bf9e112d754d94148a9060"
+                    "reference": "090b9ff1af91134b078fe93db4391c6ad2bad36c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/22d6083cce6c1f1809bf9e112d754d94148a9060",
-                    "reference": "22d6083cce6c1f1809bf9e112d754d94148a9060",
+                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/090b9ff1af91134b078fe93db4391c6ad2bad36c",
+                    "reference": "090b9ff1af91134b078fe93db4391c6ad2bad36c",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": ">0.5",
+                    "lotgd/core": ">=0.5",
                     "lotgd/module-new-day": ">0.4.0-alpha",
                     "lotgd/module-village": ">0.4.0-alpha"
                 },
@@ -3408,7 +3408,7 @@
                     "phpunit/dbunit": "*",
                     "phpunit/phpunit": "^4.1|^5.1"
                 },
-                "time": "2019-03-26T09:16:21+00:00",
+                "time": "2019-04-05T12:43:04+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
