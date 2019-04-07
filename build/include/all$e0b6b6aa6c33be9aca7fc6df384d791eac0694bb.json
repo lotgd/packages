@@ -2479,12 +2479,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/crate-html.git",
-                    "reference": "bab249aa8a2407694fc94c0481b1add17d2b88d1"
+                    "reference": "20ba83df51cc47b8208117ec782d7010409eb477"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/crate-html/zipball/bab249aa8a2407694fc94c0481b1add17d2b88d1",
-                    "reference": "bab249aa8a2407694fc94c0481b1add17d2b88d1",
+                    "url": "https://api.github.com/repos/lotgd/crate-html/zipball/20ba83df51cc47b8208117ec782d7010409eb477",
+                    "reference": "20ba83df51cc47b8208117ec782d7010409eb477",
                     "shasum": ""
                 },
                 "require": {
@@ -2539,7 +2539,7 @@
                     "symfony/test-pack": "*",
                     "symfony/web-server-bundle": "4.2.*"
                 },
-                "time": "2019-04-07T11:02:58+00:00",
+                "time": "2019-04-07T18:34:38+00:00",
                 "bin": [
                     "bin/console"
                 ],
@@ -2583,7 +2583,7 @@
                 ],
                 "description": "Adapts the lotgd/core engine and provides a web interface to play the game.",
                 "support": {
-                    "source": "https://github.com/lotgd/crate-html/tree/v0.5.2",
+                    "source": "https://github.com/lotgd/crate-html/tree/master",
                     "issues": "https://github.com/lotgd/crate-html/issues"
                 }
             }
