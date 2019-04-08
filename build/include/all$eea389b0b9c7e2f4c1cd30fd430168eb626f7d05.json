@@ -4701,25 +4701,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-training.git",
-                    "reference": "79ad607677b9b27479d064bbfd36aed047748552"
+                    "reference": "3977863dc9ce88f67dfbbae008368422b9578a36"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-training/zipball/79ad607677b9b27479d064bbfd36aed047748552",
-                    "reference": "79ad607677b9b27479d064bbfd36aed047748552",
+                    "url": "https://api.github.com/repos/lotgd/module-training/zipball/3977863dc9ce88f67dfbbae008368422b9578a36",
+                    "reference": "3977863dc9ce88f67dfbbae008368422b9578a36",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": "^0.4.0-alpha",
-                    "lotgd/module-new-day": "^0.4.0-alpha",
-                    "lotgd/module-res-fight": "^0.4.0-alpha",
-                    "lotgd/module-village": "^0.4.0-alpha"
+                    "lotgd/core": ">=0.5.0",
+                    "lotgd/module-new-day": ">=0.5.0",
+                    "lotgd/module-res-fight": ">=0.5.0",
+                    "lotgd/module-village": ">=0.5.0"
                 },
                 "require-dev": {
                     "phpunit/dbunit": "*",
                     "phpunit/phpunit": "^4.1|^5.1"
                 },
-                "time": "2018-01-27T16:35:57+00:00",
+                "time": "2019-04-08T10:38:56+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -4738,7 +4738,7 @@
                 ],
                 "description": "Provides warrior training for players to level up.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-training/tree/v0.4.1",
+                    "source": "https://github.com/lotgd/module-training/tree/master",
                     "issues": "https://github.com/lotgd/module-training/issues"
                 }
             },
