@@ -3073,31 +3073,31 @@
                     "issues": "https://github.com/lotgd/module-gender/issues"
                 }
             },
-            "dev-master": {
+            "v0.5.0": {
                 "name": "lotgd/module-gender",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v0.5.0",
+                "version_normalized": "0.5.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-gender.git",
-                    "reference": "9f0cfe6b245183656b517d7644007a621cc3bf1d"
+                    "reference": "d00357f815dc494d8960c6675fc34ac937af3bf4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-gender/zipball/9f0cfe6b245183656b517d7644007a621cc3bf1d",
-                    "reference": "9f0cfe6b245183656b517d7644007a621cc3bf1d",
+                    "url": "https://api.github.com/repos/lotgd/module-gender/zipball/d00357f815dc494d8960c6675fc34ac937af3bf4",
+                    "reference": "d00357f815dc494d8960c6675fc34ac937af3bf4",
                     "shasum": ""
                 },
                 "require": {
                     "lotgd/core": ">=0.5",
-                    "lotgd/module-new-day": ">=0.4.0-alpha",
-                    "lotgd/module-village": ">=0.4.0-alpha"
+                    "lotgd/module-new-day": ">=0.5.0-alpha",
+                    "lotgd/module-village": ">=0.5.0-alpha"
                 },
                 "require-dev": {
                     "phpunit/dbunit": "*",
                     "phpunit/phpunit": "^4.1|^5.1"
                 },
-                "time": "2019-03-26T09:11:11+00:00",
+                "time": "2019-04-08T09:10:02+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -3115,7 +3115,53 @@
                 ],
                 "description": "Prompts the user with a selection for a gender at a new day.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-gender/tree/master",
+                    "source": "https://github.com/lotgd/module-gender/tree/v0.5.0",
+                    "issues": "https://github.com/lotgd/module-gender/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/module-gender",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-gender.git",
+                    "reference": "d00357f815dc494d8960c6675fc34ac937af3bf4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-gender/zipball/d00357f815dc494d8960c6675fc34ac937af3bf4",
+                    "reference": "d00357f815dc494d8960c6675fc34ac937af3bf4",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": ">=0.5",
+                    "lotgd/module-new-day": ">=0.5.0-alpha",
+                    "lotgd/module-village": ">=0.5.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2019-04-08T09:10:02+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Gender\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Prompts the user with a selection for a gender at a new day.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-gender/tree/v0.5.0",
                     "issues": "https://github.com/lotgd/module-gender/issues"
                 }
             }
@@ -3777,31 +3823,31 @@
                     "issues": "https://github.com/lotgd/module-res-fight/issues"
                 }
             },
-            "dev-master": {
+            "v0.5.0": {
                 "name": "lotgd/module-res-fight",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v0.5.0",
+                "version_normalized": "0.5.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-res-fight.git",
-                    "reference": "090b9ff1af91134b078fe93db4391c6ad2bad36c"
+                    "reference": "a017bd5aab7aedbb54a6f75372c50b2c2c9b282d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/090b9ff1af91134b078fe93db4391c6ad2bad36c",
-                    "reference": "090b9ff1af91134b078fe93db4391c6ad2bad36c",
+                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/a017bd5aab7aedbb54a6f75372c50b2c2c9b282d",
+                    "reference": "a017bd5aab7aedbb54a6f75372c50b2c2c9b282d",
                     "shasum": ""
                 },
                 "require": {
                     "lotgd/core": ">=0.5",
-                    "lotgd/module-new-day": ">0.4.0-alpha",
-                    "lotgd/module-village": ">0.4.0-alpha"
+                    "lotgd/module-new-day": ">=0.5.0-alpha",
+                    "lotgd/module-village": ">=0.5.0-alpha"
                 },
                 "require-dev": {
                     "phpunit/dbunit": "*",
                     "phpunit/phpunit": "^4.1|^5.1"
                 },
-                "time": "2019-04-05T12:43:04+00:00",
+                "time": "2019-04-08T09:21:57+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -3820,7 +3866,54 @@
                 ],
                 "description": "A resource module which provides basic fighting capabilities as well as hooks to extend them.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-res-fight/tree/master",
+                    "source": "https://github.com/lotgd/module-res-fight/tree/v0.5.0",
+                    "issues": "https://github.com/lotgd/module-res-fight/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/module-res-fight",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-res-fight.git",
+                    "reference": "a017bd5aab7aedbb54a6f75372c50b2c2c9b282d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/a017bd5aab7aedbb54a6f75372c50b2c2c9b282d",
+                    "reference": "a017bd5aab7aedbb54a6f75372c50b2c2c9b282d",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": ">=0.5",
+                    "lotgd/module-new-day": ">=0.5.0-alpha",
+                    "lotgd/module-village": ">=0.5.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2019-04-08T09:21:57+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Res\\Fight\\": "src/",
+                        "LotGD\\Module\\Res\\Fight\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "A resource module which provides basic fighting capabilities as well as hooks to extend them.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-res-fight/tree/v0.5.0",
                     "issues": "https://github.com/lotgd/module-res-fight/issues"
                 }
             },
