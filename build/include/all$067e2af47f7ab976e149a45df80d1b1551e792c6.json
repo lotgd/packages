@@ -2479,15 +2479,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/crate-html.git",
-                    "reference": "6e2b4d21e9a22f1f9fb99b93692646711f481b5f"
+                    "reference": "e1d0c8f47758fcaafbb7f71f0a82ea7ff811d9df"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/crate-html/zipball/6e2b4d21e9a22f1f9fb99b93692646711f481b5f",
-                    "reference": "6e2b4d21e9a22f1f9fb99b93692646711f481b5f",
+                    "url": "https://api.github.com/repos/lotgd/crate-html/zipball/e1d0c8f47758fcaafbb7f71f0a82ea7ff811d9df",
+                    "reference": "e1d0c8f47758fcaafbb7f71f0a82ea7ff811d9df",
                     "shasum": ""
                 },
                 "require": {
+                    "edwinhoksberg/octicons-php": "^1.0",
                     "ext-ctype": "*",
                     "ext-iconv": "*",
                     "lotgd/core": "^0.5.0",
@@ -2539,7 +2540,7 @@
                     "symfony/test-pack": "*",
                     "symfony/web-server-bundle": "4.2.*"
                 },
-                "time": "2019-04-07T18:40:39+00:00",
+                "time": "2019-04-13T08:19:39+00:00",
                 "bin": [
                     "bin/console"
                 ],
