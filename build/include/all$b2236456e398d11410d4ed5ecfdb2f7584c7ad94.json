@@ -3797,10 +3797,10 @@
                     "issues": "https://github.com/lotgd/module-project/issues"
                 }
             },
-            "dev-master": {
+            "v0.5.0": {
                 "name": "lotgd/module-project",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v0.5.0",
+                "version_normalized": "0.5.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-project.git",
@@ -3842,6 +3842,104 @@
                 "description": "Starter code for your own custom LotGD module.",
                 "support": {
                     "source": "https://github.com/lotgd/module-project/tree/master",
+                    "issues": "https://github.com/lotgd/module-project/issues"
+                }
+            },
+            "v0.5.1": {
+                "name": "lotgd/module-project",
+                "version": "v0.5.1",
+                "version_normalized": "0.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-project.git",
+                    "reference": "28bb0043d5d83bc75536c8a7f9c7ba5d693165fd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/28bb0043d5d83bc75536c8a7f9c7ba5d693165fd",
+                    "reference": "28bb0043d5d83bc75536c8a7f9c7ba5d693165fd",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": ">=0.5.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2019-04-20T10:36:22+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "MyVendor\\MyNamespace\\": "src/",
+                        "MyVendor\\MyNamespace\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    },
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Starter code for your own custom LotGD module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-project/tree/v0.5.1",
+                    "issues": "https://github.com/lotgd/module-project/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/module-project",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-project.git",
+                    "reference": "28bb0043d5d83bc75536c8a7f9c7ba5d693165fd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/28bb0043d5d83bc75536c8a7f9c7ba5d693165fd",
+                    "reference": "28bb0043d5d83bc75536c8a7f9c7ba5d693165fd",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": ">=0.5.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2019-04-20T10:36:22+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "MyVendor\\MyNamespace\\": "src/",
+                        "MyVendor\\MyNamespace\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    },
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Starter code for your own custom LotGD module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-project/tree/v0.5.1",
                     "issues": "https://github.com/lotgd/module-project/issues"
                 }
             }
