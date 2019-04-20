@@ -2595,12 +2595,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/crate-html.git",
-                    "reference": "e1d0c8f47758fcaafbb7f71f0a82ea7ff811d9df"
+                    "reference": "2d7d5ca2067402d451451887cd218d5851a5689f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/crate-html/zipball/e1d0c8f47758fcaafbb7f71f0a82ea7ff811d9df",
-                    "reference": "e1d0c8f47758fcaafbb7f71f0a82ea7ff811d9df",
+                    "url": "https://api.github.com/repos/lotgd/crate-html/zipball/2d7d5ca2067402d451451887cd218d5851a5689f",
+                    "reference": "2d7d5ca2067402d451451887cd218d5851a5689f",
                     "shasum": ""
                 },
                 "require": {
@@ -2656,7 +2656,7 @@
                     "symfony/test-pack": "*",
                     "symfony/web-server-bundle": "4.2.*"
                 },
-                "time": "2019-04-13T08:19:39+00:00",
+                "time": "2019-04-20T11:04:11+00:00",
                 "bin": [
                     "bin/console"
                 ],
@@ -3894,19 +3894,19 @@
                     "issues": "https://github.com/lotgd/module-project/issues"
                 }
             },
-            "dev-master": {
+            "v0.5.2": {
                 "name": "lotgd/module-project",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v0.5.2",
+                "version_normalized": "0.5.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-project.git",
-                    "reference": "28bb0043d5d83bc75536c8a7f9c7ba5d693165fd"
+                    "reference": "d44f615221feb87cb4036278502a91d3b4aa86df"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/28bb0043d5d83bc75536c8a7f9c7ba5d693165fd",
-                    "reference": "28bb0043d5d83bc75536c8a7f9c7ba5d693165fd",
+                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/d44f615221feb87cb4036278502a91d3b4aa86df",
+                    "reference": "d44f615221feb87cb4036278502a91d3b4aa86df",
                     "shasum": ""
                 },
                 "require": {
@@ -3916,7 +3916,7 @@
                     "phpunit/dbunit": "*",
                     "phpunit/phpunit": "^4.1|^5.1"
                 },
-                "time": "2019-04-20T10:36:22+00:00",
+                "time": "2019-04-20T10:47:57+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -3939,7 +3939,56 @@
                 ],
                 "description": "Starter code for your own custom LotGD module.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-project/tree/v0.5.1",
+                    "source": "https://github.com/lotgd/module-project/tree/v0.5.2",
+                    "issues": "https://github.com/lotgd/module-project/issues"
+                }
+            },
+            "dev-master": {
+                "name": "lotgd/module-project",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-project.git",
+                    "reference": "d44f615221feb87cb4036278502a91d3b4aa86df"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/d44f615221feb87cb4036278502a91d3b4aa86df",
+                    "reference": "d44f615221feb87cb4036278502a91d3b4aa86df",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": ">=0.5.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2019-04-20T10:47:57+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "MyVendor\\MyNamespace\\": "src/",
+                        "MyVendor\\MyNamespace\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    },
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Starter code for your own custom LotGD module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-project/tree/v0.5.2",
                     "issues": "https://github.com/lotgd/module-project/issues"
                 }
             }
