@@ -757,6 +757,57 @@
                     "issues": "https://github.com/lotgd/core/issues"
                 }
             },
+            "dev-feature/model-adjustments": {
+                "name": "lotgd/core",
+                "version": "dev-feature/model-adjustments",
+                "version_normalized": "dev-feature/model-adjustments",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "7725c7faedcd003c1e565b4d51c2ac0bfa9b5f84"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/7725c7faedcd003c1e565b4d51c2ac0bfa9b5f84",
+                    "reference": "7725c7faedcd003c1e565b4d51c2ac0bfa9b5f84",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "^2.5",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.1.0",
+                    "ramsey/uuid-doctrine": "^1.5",
+                    "symfony/console": "^3.0|^4.0",
+                    "symfony/yaml": "^3.0|^4.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "^2.0",
+                    "phpunit/phpunit": "^5.0"
+                },
+                "time": "2019-04-23T12:35:04+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/feature/model-adjustments",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
             "dev-feature/symfony4": {
                 "name": "lotgd/core",
                 "version": "dev-feature/symfony4",
