@@ -1,0 +1,46 @@
+{
+    "packages": {
+        "lotgd/module-forms": [
+            {
+                "name": "lotgd/module-forms",
+                "version": "v0.1.0-alpha",
+                "version_normalized": "0.1.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-forms.git",
+                    "reference": "4f67713eaa99a415ea40c7ab0ce4fcb6f1b88513"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-forms/zipball/4f67713eaa99a415ea40c7ab0ce4fcb6f1b88513",
+                    "reference": "4f67713eaa99a415ea40c7ab0ce4fcb6f1b88513",
+                    "shasum": ""
+                },
+                "require": {
+                    "myclabs/php-enum": "^1.4.2"
+                },
+                "time": "2016-09-17T06:47:00+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\Forms\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "Attachments that implement a simple form interface for user input.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-forms/tree/v0.1.0-alpha",
+                    "issues": "https://github.com/lotgd/module-forms/issues"
+                }
+            }
+        ]
+    }
+}

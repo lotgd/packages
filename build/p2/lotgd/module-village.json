@@ -1,0 +1,288 @@
+{
+    "packages": {
+        "lotgd/module-village": [
+            {
+                "name": "lotgd/module-village",
+                "version": "v0.2.0-alpha",
+                "version_normalized": "0.2.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "e14bb4bf6243f079022cc0432db8466f066f93db"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/e14bb4bf6243f079022cc0432db8466f066f93db",
+                    "reference": "e14bb4bf6243f079022cc0432db8466f066f93db",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.2-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0"
+                },
+                "time": "2017-03-14T07:41:49+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.2.0-alpha",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
+            },
+            {
+                "name": "lotgd/module-village",
+                "version": "v0.3.0-alpha",
+                "version_normalized": "0.3.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "f21196a09c59d290265ccdc722ddaf7b2152f1fe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/f21196a09c59d290265ccdc722ddaf7b2152f1fe",
+                    "reference": "f21196a09c59d290265ccdc722ddaf7b2152f1fe",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "dev-master"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0"
+                },
+                "time": "2017-04-30T12:20:42+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.3.0-alpha",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
+            },
+            {
+                "name": "lotgd/module-village",
+                "version": "v0.3.1-alpha",
+                "version_normalized": "0.3.1.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "c4f398387c60ba1f20c6aa75816448d3164b01e0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/c4f398387c60ba1f20c6aa75816448d3164b01e0",
+                    "reference": "c4f398387c60ba1f20c6aa75816448d3164b01e0",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0"
+                },
+                "time": "2017-04-30T12:56:29+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.3.1-alpha",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
+            },
+            {
+                "name": "lotgd/module-village",
+                "version": "v0.3.2-alpha",
+                "version_normalized": "0.3.2.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "5238c0d62f5a040052c3bc92f42cfcec98ee77d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/5238c0d62f5a040052c3bc92f42cfcec98ee77d3",
+                    "reference": "5238c0d62f5a040052c3bc92f42cfcec98ee77d3",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0"
+                },
+                "time": "2017-09-12T08:10:30+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.3.2-alpha",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
+            },
+            {
+                "name": "lotgd/module-village",
+                "version": "v0.4.0-alpha",
+                "version_normalized": "0.4.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "6d917f9c7cedf58468ebba4deec045cf8d53b68e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/6d917f9c7cedf58468ebba4deec045cf8d53b68e",
+                    "reference": "6d917f9c7cedf58468ebba4deec045cf8d53b68e",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0"
+                },
+                "time": "2018-01-14T14:29:00+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
+            },
+            {
+                "name": "lotgd/module-village",
+                "version": "v0.5.0",
+                "version_normalized": "0.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "c8c0f096a4de7bff20f4dcd1d946f809dd27a028"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/c8c0f096a4de7bff20f4dcd1d946f809dd27a028",
+                    "reference": "c8c0f096a4de7bff20f4dcd1d946f809dd27a028",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": ">=0.5.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "^2.0"
+                },
+                "time": "2019-04-06T09:59:43+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.5.0",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
+            }
+        ]
+    }
+}

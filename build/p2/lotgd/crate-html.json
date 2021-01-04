@@ -1,0 +1,464 @@
+{
+    "packages": {
+        "lotgd/crate-html": [
+            {
+                "name": "lotgd/crate-html",
+                "version": "v0.5.0",
+                "version_normalized": "0.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-html.git",
+                    "reference": "c431262b08e883bd8bd192e59bad8d1c5ccf5bb1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-html/zipball/c431262b08e883bd8bd192e59bad8d1c5ccf5bb1",
+                    "reference": "c431262b08e883bd8bd192e59bad8d1c5ccf5bb1",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "lotgd/core": "^0.5.0",
+                    "php": "^7.1.3",
+                    "sensio/framework-extra-bundle": "^5.2",
+                    "symfony/asset": "4.2.*",
+                    "symfony/console": "4.2.*",
+                    "symfony/dotenv": "4.2.*",
+                    "symfony/expression-language": "4.2.*",
+                    "symfony/flex": "^1.1",
+                    "symfony/form": "4.2.*",
+                    "symfony/framework-bundle": "4.2.*",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/orm-pack": "*",
+                    "symfony/process": "4.2.*",
+                    "symfony/security": "4.2.*",
+                    "symfony/security-bundle": "4.2.*",
+                    "symfony/serializer-pack": "*",
+                    "symfony/swiftmailer-bundle": "^3.1",
+                    "symfony/translation": "4.2.*",
+                    "symfony/twig-bundle": "4.2.*",
+                    "symfony/validator": "4.2.*",
+                    "symfony/web-link": "4.2.*",
+                    "symfony/yaml": "4.2.*",
+                    "twig/extensions": "^1.5"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "lotgd/module-forest": ">0.4",
+                    "lotgd/module-gender": ">0.4",
+                    "lotgd/module-new-day": ">0.4",
+                    "lotgd/module-res-charstats": "dev-master",
+                    "lotgd/module-res-fight": ">0.4",
+                    "lotgd/module-scene-bundle": ">0.4",
+                    "lotgd/module-village": ">0.4",
+                    "symfony/debug-pack": "*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/profiler-pack": "*",
+                    "symfony/test-pack": "*",
+                    "symfony/web-server-bundle": "4.2.*"
+                },
+                "time": "2019-04-05T12:46:39+00:00",
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "4.2.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\WWW\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\WWW\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    },
+                    "post-install-cmd": [
+                        "@auto-scripts"
+                    ],
+                    "post-update-cmd": [
+                        "@auto-scripts"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Adapts the lotgd/core engine and provides a web interface to play the game.",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-html/tree/v0.5.0",
+                    "issues": "https://github.com/lotgd/crate-html/issues"
+                }
+            },
+            {
+                "name": "lotgd/crate-html",
+                "version": "v0.5.1",
+                "version_normalized": "0.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-html.git",
+                    "reference": "398ce226c3a44ded644b114a92ccff40c3ed6cf4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-html/zipball/398ce226c3a44ded644b114a92ccff40c3ed6cf4",
+                    "reference": "398ce226c3a44ded644b114a92ccff40c3ed6cf4",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "lotgd/core": "^0.5.0",
+                    "php": "^7.1.3",
+                    "sensio/framework-extra-bundle": "^5.2",
+                    "symfony/asset": "4.2.*",
+                    "symfony/console": "4.2.*",
+                    "symfony/dotenv": "4.2.*",
+                    "symfony/expression-language": "4.2.*",
+                    "symfony/flex": "^1.1",
+                    "symfony/form": "4.2.*",
+                    "symfony/framework-bundle": "4.2.*",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/orm-pack": "*",
+                    "symfony/process": "4.2.*",
+                    "symfony/security": "4.2.*",
+                    "symfony/security-bundle": "4.2.*",
+                    "symfony/serializer-pack": "*",
+                    "symfony/swiftmailer-bundle": "^3.1",
+                    "symfony/translation": "4.2.*",
+                    "symfony/twig-bundle": "4.2.*",
+                    "symfony/validator": "4.2.*",
+                    "symfony/web-link": "4.2.*",
+                    "symfony/yaml": "4.2.*",
+                    "twig/extensions": "^1.5"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "lotgd/module-forest": ">0.4",
+                    "lotgd/module-gender": ">0.4",
+                    "lotgd/module-new-day": ">0.4",
+                    "lotgd/module-res-charstats": "dev-master",
+                    "lotgd/module-res-fight": ">0.4",
+                    "lotgd/module-scene-bundle": ">0.4",
+                    "lotgd/module-village": ">0.4",
+                    "symfony/debug-pack": "*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/profiler-pack": "*",
+                    "symfony/test-pack": "*",
+                    "symfony/web-server-bundle": "4.2.*"
+                },
+                "time": "2019-04-07T10:47:41+00:00",
+                "bin": [
+                    "bin/console"
+                ],
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "4.2.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\WWW\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\WWW\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    },
+                    "post-install-cmd": [
+                        "@auto-scripts"
+                    ],
+                    "post-update-cmd": [
+                        "@auto-scripts"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Adapts the lotgd/core engine and provides a web interface to play the game.",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-html/tree/v0.5.1",
+                    "issues": "https://github.com/lotgd/crate-html/issues"
+                }
+            },
+            {
+                "name": "lotgd/crate-html",
+                "version": "v0.5.2",
+                "version_normalized": "0.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-html.git",
+                    "reference": "bab249aa8a2407694fc94c0481b1add17d2b88d1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-html/zipball/bab249aa8a2407694fc94c0481b1add17d2b88d1",
+                    "reference": "bab249aa8a2407694fc94c0481b1add17d2b88d1",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "lotgd/core": "^0.5.0",
+                    "php": "^7.1.3",
+                    "sensio/framework-extra-bundle": "^5.2",
+                    "symfony/asset": "4.2.*",
+                    "symfony/console": "4.2.*",
+                    "symfony/dotenv": "4.2.*",
+                    "symfony/expression-language": "4.2.*",
+                    "symfony/flex": "^1.1",
+                    "symfony/form": "4.2.*",
+                    "symfony/framework-bundle": "4.2.*",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/orm-pack": "*",
+                    "symfony/process": "4.2.*",
+                    "symfony/security": "4.2.*",
+                    "symfony/security-bundle": "4.2.*",
+                    "symfony/serializer-pack": "*",
+                    "symfony/swiftmailer-bundle": "^3.1",
+                    "symfony/translation": "4.2.*",
+                    "symfony/twig-bundle": "4.2.*",
+                    "symfony/validator": "4.2.*",
+                    "symfony/web-link": "4.2.*",
+                    "symfony/yaml": "4.2.*",
+                    "twig/extensions": "^1.5"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "lotgd/module-forest": ">0.4",
+                    "lotgd/module-gender": ">0.4",
+                    "lotgd/module-new-day": ">0.4",
+                    "lotgd/module-res-charstats": "dev-master",
+                    "lotgd/module-res-fight": ">0.4",
+                    "lotgd/module-scene-bundle": ">0.4",
+                    "lotgd/module-village": ">0.4",
+                    "symfony/debug-pack": "*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/profiler-pack": "*",
+                    "symfony/test-pack": "*",
+                    "symfony/web-server-bundle": "4.2.*"
+                },
+                "time": "2019-04-07T11:02:58+00:00",
+                "bin": [
+                    "bin/console"
+                ],
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "4.2.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\WWW\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\WWW\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    },
+                    "post-install-cmd": [
+                        "@auto-scripts"
+                    ],
+                    "post-update-cmd": [
+                        "@auto-scripts"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Adapts the lotgd/core engine and provides a web interface to play the game.",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-html/tree/v0.5.2",
+                    "issues": "https://github.com/lotgd/crate-html/issues"
+                }
+            },
+            {
+                "name": "lotgd/crate-html",
+                "version": "v0.5.3",
+                "version_normalized": "0.5.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-html.git",
+                    "reference": "e1d0c8f47758fcaafbb7f71f0a82ea7ff811d9df"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-html/zipball/e1d0c8f47758fcaafbb7f71f0a82ea7ff811d9df",
+                    "reference": "e1d0c8f47758fcaafbb7f71f0a82ea7ff811d9df",
+                    "shasum": ""
+                },
+                "require": {
+                    "edwinhoksberg/octicons-php": "^1.0",
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "lotgd/core": "^0.5.0",
+                    "php": "^7.1.3",
+                    "sensio/framework-extra-bundle": "^5.2",
+                    "symfony/asset": "4.2.*",
+                    "symfony/console": "4.2.*",
+                    "symfony/dotenv": "4.2.*",
+                    "symfony/expression-language": "4.2.*",
+                    "symfony/flex": "^1.1",
+                    "symfony/form": "4.2.*",
+                    "symfony/framework-bundle": "4.2.*",
+                    "symfony/monolog-bundle": "^3.1",
+                    "symfony/orm-pack": "*",
+                    "symfony/process": "4.2.*",
+                    "symfony/security": "4.2.*",
+                    "symfony/security-bundle": "4.2.*",
+                    "symfony/serializer-pack": "*",
+                    "symfony/swiftmailer-bundle": "^3.1",
+                    "symfony/translation": "4.2.*",
+                    "symfony/twig-bundle": "4.2.*",
+                    "symfony/validator": "4.2.*",
+                    "symfony/web-link": "4.2.*",
+                    "symfony/yaml": "4.2.*",
+                    "twig/extensions": "^1.5"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "paragonie/random_compat": "2.*",
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php56": "*",
+                    "symfony/polyfill-php70": "*",
+                    "symfony/polyfill-php71": "*"
+                },
+                "require-dev": {
+                    "lotgd/module-forest": ">0.4",
+                    "lotgd/module-gender": ">0.4",
+                    "lotgd/module-new-day": ">0.4",
+                    "lotgd/module-res-charstats": "dev-master",
+                    "lotgd/module-res-fight": ">0.4",
+                    "lotgd/module-scene-bundle": ">0.4",
+                    "lotgd/module-village": ">0.4",
+                    "symfony/debug-pack": "*",
+                    "symfony/maker-bundle": "^1.0",
+                    "symfony/profiler-pack": "*",
+                    "symfony/test-pack": "*",
+                    "symfony/web-server-bundle": "4.2.*"
+                },
+                "time": "2019-04-13T08:19:39+00:00",
+                "bin": [
+                    "bin/console"
+                ],
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "4.2.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\WWW\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\WWW\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    },
+                    "post-install-cmd": [
+                        "@auto-scripts"
+                    ],
+                    "post-update-cmd": [
+                        "@auto-scripts"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Adapts the lotgd/core engine and provides a web interface to play the game.",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-html/tree/v0.5.3",
+                    "issues": "https://github.com/lotgd/crate-html/issues"
+                }
+            }
+        ]
+    }
+}

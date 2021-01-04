@@ -1,0 +1,53 @@
+{
+    "packages": {
+        "lotgd/module-weapon-shop": [
+            {
+                "name": "lotgd/module-weapon-shop",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-weapon-shop.git",
+                    "reference": "4064967b2b103b709b11135c45f4847865f14a8c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-weapon-shop/zipball/4064967b2b103b709b11135c45f4847865f14a8c",
+                    "reference": "4064967b2b103b709b11135c45f4847865f14a8c",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "0.1.0-alpha",
+                    "lotgd/module-forms": "dev-master",
+                    "lotgd/module-simple-inventory": "dev-master",
+                    "lotgd/module-simple-wealth": "dev-master"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2017-01-02T06:11:16+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\WeaponShop\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "The village weapon shop.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-weapon-shop/tree/master",
+                    "issues": "https://github.com/lotgd/module-weapon-shop/issues"
+                }
+            }
+        ]
+    }
+}

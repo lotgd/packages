@@ -1,0 +1,144 @@
+{
+    "packages": {
+        "lotgd/module-gender": [
+            {
+                "name": "lotgd/module-gender",
+                "version": "v0.3.0-alpha",
+                "version_normalized": "0.3.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-gender.git",
+                    "reference": "c25e3d8357e15f50f7aa170ae95868299ad9f91e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-gender/zipball/c25e3d8357e15f50f7aa170ae95868299ad9f91e",
+                    "reference": "c25e3d8357e15f50f7aa170ae95868299ad9f91e",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.3.1-alpha",
+                    "lotgd/module-new-day": "^0.3.1-alpha",
+                    "lotgd/module-village": "^0.3.1-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2017-09-12T13:11:28+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Gender\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Prompts the user with a selection for a gender at a new day.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-gender/tree/v0.3.0-alpha",
+                    "issues": "https://github.com/lotgd/module-gender/issues"
+                }
+            },
+            {
+                "name": "lotgd/module-gender",
+                "version": "v0.4.0-alpha",
+                "version_normalized": "0.4.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-gender.git",
+                    "reference": "312d9a9179d08e92db557734acc0b9be757110b1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-gender/zipball/312d9a9179d08e92db557734acc0b9be757110b1",
+                    "reference": "312d9a9179d08e92db557734acc0b9be757110b1",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2018-01-15T12:52:50+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Gender\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Prompts the user with a selection for a gender at a new day.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-gender/tree/v0.4.0-alpha",
+                    "issues": "https://github.com/lotgd/module-gender/issues"
+                }
+            },
+            {
+                "name": "lotgd/module-gender",
+                "version": "v0.5.0",
+                "version_normalized": "0.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-gender.git",
+                    "reference": "d00357f815dc494d8960c6675fc34ac937af3bf4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-gender/zipball/d00357f815dc494d8960c6675fc34ac937af3bf4",
+                    "reference": "d00357f815dc494d8960c6675fc34ac937af3bf4",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": ">=0.5",
+                    "lotgd/module-new-day": ">=0.5.0-alpha",
+                    "lotgd/module-village": ">=0.5.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2019-04-08T09:10:02+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Gender\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Prompts the user with a selection for a gender at a new day.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-gender/tree/v0.5.0",
+                    "issues": "https://github.com/lotgd/module-gender/issues"
+                }
+            }
+        ]
+    }
+}

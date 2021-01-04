@@ -1,0 +1,50 @@
+{
+    "packages": {
+        "lotgd/module-simple-wealth": [
+            {
+                "name": "lotgd/module-simple-wealth",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-simple-wealth.git",
+                    "reference": "0c85c9918d297703decde260ffea8def59162014"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-simple-wealth/zipball/0c85c9918d297703decde260ffea8def59162014",
+                    "reference": "0c85c9918d297703decde260ffea8def59162014",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "0.1.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2016-12-31T22:58:15+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\SimpleWealth\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "Gold and gem tracking for users.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-simple-wealth/tree/master",
+                    "issues": "https://github.com/lotgd/module-simple-wealth/issues"
+                }
+            }
+        ]
+    }
+}

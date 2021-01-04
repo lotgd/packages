@@ -1,0 +1,55 @@
+{
+    "packages": {
+        "lotgd/module-project": [
+            {
+                "name": "lotgd/module-project",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-project.git",
+                    "reference": "d44f615221feb87cb4036278502a91d3b4aa86df"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/d44f615221feb87cb4036278502a91d3b4aa86df",
+                    "reference": "d44f615221feb87cb4036278502a91d3b4aa86df",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": ">=0.5.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2019-04-20T10:47:57+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "MyVendor\\MyNamespace\\": "src/",
+                        "MyVendor\\MyNamespace\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    },
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Starter code for your own custom LotGD module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-project/tree/v0.5.2",
+                    "issues": "https://github.com/lotgd/module-project/issues"
+                }
+            }
+        ]
+    }
+}

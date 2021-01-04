@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "lotgd/module-res-charstats": [
+            {
+                "name": "lotgd/module-res-charstats",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-res-charstats.git",
+                    "reference": "da79d327aed3178fcbb53a43a45f193d53bb4716"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-res-charstats/zipball/da79d327aed3178fcbb53a43a45f193d53bb4716",
+                    "reference": "da79d327aed3178fcbb53a43a45f193d53bb4716",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": ">=0.5.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2019-04-05T11:17:03+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Res\\Charstats\\": "src/",
+                        "LotGD\\Module\\Res\\Charstats\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "This module adds basic stats to the default character stats of lotgd/core",
+                "support": {
+                    "source": "https://github.com/lotgd/module-res-charstats/tree/master",
+                    "issues": "https://github.com/lotgd/module-res-charstats/issues"
+                }
+            }
+        ]
+    }
+}

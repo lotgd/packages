@@ -1,0 +1,586 @@
+{
+    "packages": {
+        "lotgd/crate-graphql": [
+            {
+                "name": "lotgd/crate-graphql",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "bdc3616665df38526f8c964310f803ea4799784a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/bdc3616665df38526f8c964310f803ea4799784a",
+                    "reference": "bdc3616665df38526f8c964310f803ea4799784a",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "dev-master as 0.4.0",
+                    "overblog/graphql-bundle": "^0.11.0-dev",
+                    "sensio/framework-extra-bundle": "^5.0",
+                    "symfony/monolog-bundle": "^3.0",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^3.0",
+                    "symfony/symfony": "^3.4.0"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.9",
+                    "lotgd/module-scene-bundle": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2018-10-11T09:29:48+00:00",
+                "bin": [
+                    "bin/console"
+                ],
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/core-update/0.5",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            },
+            {
+                "name": "lotgd/crate-graphql",
+                "version": "dev-core-update/0.5",
+                "version_normalized": "dev-core-update/0.5",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "bdc3616665df38526f8c964310f803ea4799784a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/bdc3616665df38526f8c964310f803ea4799784a",
+                    "reference": "bdc3616665df38526f8c964310f803ea4799784a",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "dev-master as 0.4.0",
+                    "overblog/graphql-bundle": "^0.11.0-dev",
+                    "sensio/framework-extra-bundle": "^5.0",
+                    "symfony/monolog-bundle": "^3.0",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^3.0",
+                    "symfony/symfony": "^3.4.0"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.9",
+                    "lotgd/module-scene-bundle": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2018-10-11T09:29:48+00:00",
+                "bin": [
+                    "bin/console"
+                ],
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/core-update/0.5",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            },
+            {
+                "name": "lotgd/crate-graphql",
+                "version": "dev-temp/attachments",
+                "version_normalized": "dev-temp/attachments",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "4c1022c8fbd973e9f8e51e9b1b6d7b85796b2f88"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/4c1022c8fbd973e9f8e51e9b1b6d7b85796b2f88",
+                    "reference": "4c1022c8fbd973e9f8e51e9b1b6d7b85796b2f88",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "^0.3.2-alpha",
+                    "lotgd/module-forms": "^0.1.0-alpha",
+                    "overblog/graphql-bundle": "dev-master",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/framework-extra-bundle": "^3.0.2",
+                    "symfony/monolog-bundle": "^2.8",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^2.3",
+                    "symfony/symfony": "3.1.*"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.5",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2018-01-27T18:41:17+00:00",
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/temp/attachments",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            },
+            {
+                "name": "lotgd/crate-graphql",
+                "version": "dev-version/0.2",
+                "version_normalized": "dev-version/0.2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "e9d476ca5341f91073234f6e4281b87c772e45ef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/e9d476ca5341f91073234f6e4281b87c772e45ef",
+                    "reference": "e9d476ca5341f91073234f6e4281b87c772e45ef",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "^0.2-alpha",
+                    "lotgd/module-scene-bundle": "^0.2-alpha",
+                    "lotgd/module-village": "^0.2-alpha",
+                    "overblog/graphql-bundle": "dev-master",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/framework-extra-bundle": "^3.0.2",
+                    "symfony/monolog-bundle": "^2.8",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^2.3",
+                    "symfony/symfony": "3.1.*"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.5",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2017-03-14T10:46:02+00:00",
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/v0.2.0-alpha",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            },
+            {
+                "name": "lotgd/crate-graphql",
+                "version": "dev-version/0.3",
+                "version_normalized": "dev-version/0.3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "d8c4fc7e5e0add46bcaedee7b0ff6887eaa49695"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/d8c4fc7e5e0add46bcaedee7b0ff6887eaa49695",
+                    "reference": "d8c4fc7e5e0add46bcaedee7b0ff6887eaa49695",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "^0.3.1-alpha",
+                    "lotgd/module-scene-bundle": "^0.3.0-alpha",
+                    "lotgd/module-village": "^0.3.0-alpha",
+                    "overblog/graphql-bundle": "^0.8.0",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/framework-extra-bundle": "^3.0.2",
+                    "symfony/monolog-bundle": "^2.8",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^2.3",
+                    "symfony/symfony": "3.1.*"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.5",
+                    "lotgd/module-gender": "^0.3.0-alpha",
+                    "lotgd/module-new-day": "^0.3.1-alpha",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2017-09-13T08:29:56+00:00",
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/v0.3.1-alpha",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            },
+            {
+                "name": "lotgd/crate-graphql",
+                "version": "dev-version/0.4",
+                "version_normalized": "dev-version/0.4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/crate-graphql.git",
+                    "reference": "7b8fb3dc2a821cd7be024268fa7eb6c8407190a1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/crate-graphql/zipball/7b8fb3dc2a821cd7be024268fa7eb6c8407190a1",
+                    "reference": "7b8fb3dc2a821cd7be024268fa7eb6c8407190a1",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^1.6",
+                    "doctrine/doctrine-cache-bundle": "^1.2",
+                    "doctrine/orm": "^2.5",
+                    "incenteev/composer-parameter-handler": "^2.0",
+                    "lotgd/core": "^0.4.0-alpha",
+                    "overblog/graphql-bundle": "^0.10.0",
+                    "sensio/framework-extra-bundle": "^3.0.2",
+                    "symfony/monolog-bundle": "^2.8",
+                    "symfony/polyfill-apcu": "^1.0",
+                    "symfony/swiftmailer-bundle": "^2.3",
+                    "symfony/symfony": "^3.3.0"
+                },
+                "require-dev": {
+                    "liip/functional-test-bundle": "^1.9",
+                    "lotgd/module-dragon-kills": "^0.4.0-alpha",
+                    "lotgd/module-forest": "^0.4.0-alpha",
+                    "lotgd/module-gender": "^0.4.0-alpha",
+                    "lotgd/module-new-day": "^0.4.0-alpha",
+                    "lotgd/module-res-fight": "^0.4.0-alpha",
+                    "lotgd/module-scene-bundle": "^0.4.0-alpha",
+                    "lotgd/module-training": "^0.4.0-alpha",
+                    "lotgd/module-village": "^0.4.0-alpha",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1",
+                    "sensio/distribution-bundle": "^5.0",
+                    "sensio/generator-bundle": "^3.0",
+                    "symfony/phpunit-bridge": "^3.0"
+                },
+                "time": "2018-01-26T18:00:02+00:00",
+                "bin": [
+                    "bin/console"
+                ],
+                "type": "lotgd-crate",
+                "extra": {
+                    "symfony-app-dir": "app",
+                    "symfony-bin-dir": "bin",
+                    "symfony-var-dir": "var",
+                    "symfony-web-dir": "web",
+                    "symfony-tests-dir": "tests",
+                    "symfony-assets-install": "relative",
+                    "incenteev-parameters": {
+                        "file": "app/config/parameters.yml"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\": "src/",
+                        "AppBundle\\": "src/AppBundle/"
+                    },
+                    "classmap": [
+                        "app/AppKernel.php",
+                        "app/AppCache.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "LotGD\\Crate\\GraphQL\\Tests\\": "tests/",
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ],
+                    "post-update-cmd": [
+                        "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+                        "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Adapts the lotgd/core engine and provides a public API for playing the game",
+                "support": {
+                    "source": "https://github.com/lotgd/crate-graphql/tree/v0.4.0",
+                    "issues": "https://github.com/lotgd/crate-graphql/issues"
+                }
+            }
+        ]
+    }
+}
