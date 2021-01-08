@@ -459,12 +459,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/core.git",
-                    "reference": "6325b8bd367b656fd868c69debe6ce297de5b34b"
+                    "reference": "c4634b90b7645e0e0b03dd5f991af590378501cf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/core/zipball/6325b8bd367b656fd868c69debe6ce297de5b34b",
-                    "reference": "6325b8bd367b656fd868c69debe6ce297de5b34b",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/c4634b90b7645e0e0b03dd5f991af590378501cf",
+                    "reference": "c4634b90b7645e0e0b03dd5f991af590378501cf",
                     "shasum": ""
                 },
                 "require": {
@@ -485,7 +485,7 @@
                     "phpunit/php-code-coverage": "*",
                     "phpunit/phpunit": "*"
                 },
-                "time": "2021-01-04T18:40:12+00:00",
+                "time": "2021-01-08T19:00:25+00:00",
                 "bin": [
                     "bin/daenerys"
                 ],
@@ -502,6 +502,59 @@
                 "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
                 "support": {
                     "source": "https://github.com/lotgd/core/tree/master",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-phpunit/assertions": {
+                "name": "lotgd/core",
+                "version": "dev-phpunit/assertions",
+                "version_normalized": "dev-phpunit/assertions",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "e74ea912cda5549ba4f49be3882b37f3a1a1b20f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/e74ea912cda5549ba4f49be3882b37f3a1a1b20f",
+                    "reference": "e74ea912cda5549ba4f49be3882b37f3a1a1b20f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "^1.10|^2.0",
+                    "doctrine/common": "^3.0",
+                    "doctrine/orm": "^2.8",
+                    "ext-pdo": "*",
+                    "gedmo/doctrine-extensions": "^2.3|^3.0",
+                    "jetbrains/phpstorm-attributes": "^1.0",
+                    "monolog/monolog": "^2.0",
+                    "php": "^8.0",
+                    "ramsey/uuid-doctrine": "^1.5",
+                    "symfony/console": "^5.0",
+                    "symfony/yaml": "^5.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "*",
+                    "phpunit/php-code-coverage": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2021-01-08T18:52:06+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-or-later"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/phpunit/assertions",
                     "issues": "https://github.com/lotgd/core/issues"
                 }
             },
