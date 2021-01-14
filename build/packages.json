@@ -1,11 +1,11 @@
 {
     "packages": [],
     "includes": {
-        "include/all$5fabd1f082cbe3691a57458d543ce738809b50e1.json": {
-            "sha1": "5fabd1f082cbe3691a57458d543ce738809b50e1"
+        "include/all$de5ca3982c62f530071dae47552d8df4179b574d.json": {
+            "sha1": "de5ca3982c62f530071dae47552d8df4179b574d"
         }
     },
-    "metadata-url": "/lotgd/packages/blob/master/build/p2/%package%.json",
+    "metadata-url": "/lotgd/packages/master/build/p2/%package%.json",
     "available-packages": [
         "lotgd/core",
         "lotgd/crate-graphql",
