@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/core.git",
-                    "reference": "1a0b6dbe3e407eb44dfc363773cc0633623b4f2a"
+                    "reference": "9b60cc0ebb69c037ba1e4bb67c31daca45b7b0e5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/core/zipball/1a0b6dbe3e407eb44dfc363773cc0633623b4f2a",
-                    "reference": "1a0b6dbe3e407eb44dfc363773cc0633623b4f2a",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/9b60cc0ebb69c037ba1e4bb67c31daca45b7b0e5",
+                    "reference": "9b60cc0ebb69c037ba1e4bb67c31daca45b7b0e5",
                     "shasum": ""
                 },
                 "require": {
@@ -27,14 +27,15 @@
                     "php": "^8.0",
                     "ramsey/uuid-doctrine": "^1.5",
                     "symfony/console": "^5.0",
-                    "symfony/yaml": "^5.0"
+                    "symfony/yaml": "^5.0",
+                    "twig/twig": "^3.0"
                 },
                 "require-dev": {
                     "friendsofphp/php-cs-fixer": "*",
                     "phpunit/php-code-coverage": "*",
                     "phpunit/phpunit": "*"
                 },
-                "time": "2021-01-14T19:52:19+00:00",
+                "time": "2021-01-16T17:55:49+00:00",
                 "bin": [
                     "bin/daenerys"
                 ],
@@ -51,6 +52,60 @@
                 "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
                 "support": {
                     "source": "https://github.com/lotgd/core/tree/master",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            {
+                "name": "lotgd/core",
+                "version": "dev-feature/flexible-scene-descriptions",
+                "version_normalized": "dev-feature/flexible-scene-descriptions",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "f7386b3ca5297232bdf01919b3e6b0436f658660"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/f7386b3ca5297232bdf01919b3e6b0436f658660",
+                    "reference": "f7386b3ca5297232bdf01919b3e6b0436f658660",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "^1.10|^2.0",
+                    "doctrine/common": "^3.0",
+                    "doctrine/orm": "^2.8",
+                    "ext-pdo": "*",
+                    "gedmo/doctrine-extensions": "^2.3|^3.0",
+                    "jetbrains/phpstorm-attributes": "^1.0",
+                    "monolog/monolog": "^2.0",
+                    "php": "^8.0",
+                    "ramsey/uuid-doctrine": "^1.5",
+                    "symfony/console": "^5.0",
+                    "symfony/yaml": "^5.0",
+                    "twig/twig": "^3.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "*",
+                    "phpunit/php-code-coverage": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2021-01-16T16:47:19+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-or-later"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/feature/flexible-scene-descriptions",
                     "issues": "https://github.com/lotgd/core/issues"
                 }
             },
