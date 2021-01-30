@@ -43,7 +43,7 @@
                 ],
                 "description": "This module adds in a new day, with tools and hooks for other modules to add themselves in.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-new-day/tree/master",
+                    "source": "https://github.com/lotgd/module-new-day/tree/v0.6.0",
                     "issues": "https://github.com/lotgd/module-new-day/issues"
                 }
             },
