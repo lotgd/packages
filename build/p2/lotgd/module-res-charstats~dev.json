@@ -42,7 +42,7 @@
                 ],
                 "description": "This module adds basic stats to the default character stats of lotgd/core",
                 "support": {
-                    "source": "https://github.com/lotgd/module-res-charstats/tree/master",
+                    "source": "https://github.com/lotgd/module-res-charstats/tree/v0.6.0",
                     "issues": "https://github.com/lotgd/module-res-charstats/issues"
                 }
             }

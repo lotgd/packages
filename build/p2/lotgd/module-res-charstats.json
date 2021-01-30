@@ -1,5 +1,51 @@
 {
     "packages": {
-        "lotgd/module-res-charstats": []
+        "lotgd/module-res-charstats": [
+            {
+                "name": "lotgd/module-res-charstats",
+                "version": "v0.6.0",
+                "version_normalized": "0.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-res-charstats.git",
+                    "reference": "c8c1d8f8096731702a635018de49e86f9bf9b3db"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-res-charstats/zipball/c8c1d8f8096731702a635018de49e86f9bf9b3db",
+                    "reference": "c8c1d8f8096731702a635018de49e86f9bf9b3db",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.6.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.0",
+                    "symfony/yaml": "*"
+                },
+                "time": "2021-01-30T16:48:23+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Res\\Charstats\\": "src/",
+                        "LotGD\\Module\\Res\\Charstats\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "This module adds basic stats to the default character stats of lotgd/core",
+                "support": {
+                    "source": "https://github.com/lotgd/module-res-charstats/tree/v0.6.0",
+                    "issues": "https://github.com/lotgd/module-res-charstats/issues"
+                }
+            }
+        ]
     }
 }
