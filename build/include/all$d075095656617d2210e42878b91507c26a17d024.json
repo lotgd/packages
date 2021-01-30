@@ -4038,22 +4038,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-res-charstats.git",
-                    "reference": "da79d327aed3178fcbb53a43a45f193d53bb4716"
+                    "reference": "62115321bb93b6eb671269c4d569c8e5ef9d4834"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-res-charstats/zipball/da79d327aed3178fcbb53a43a45f193d53bb4716",
-                    "reference": "da79d327aed3178fcbb53a43a45f193d53bb4716",
+                    "url": "https://api.github.com/repos/lotgd/module-res-charstats/zipball/62115321bb93b6eb671269c4d569c8e5ef9d4834",
+                    "reference": "62115321bb93b6eb671269c4d569c8e5ef9d4834",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": ">=0.5.0-alpha"
+                    "lotgd/core": "^0.6.0-alpha"
                 },
                 "require-dev": {
-                    "phpunit/dbunit": "*",
-                    "phpunit/phpunit": "^4.1|^5.1"
+                    "phpunit/phpunit": "^9.0",
+                    "symfony/yaml": "*"
                 },
-                "time": "2019-04-05T11:17:03+00:00",
+                "time": "2021-01-30T16:40:59+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -4062,7 +4062,7 @@
                     }
                 },
                 "license": [
-                    "AGPL-3.0"
+                    "AGPL-3.0-or-later"
                 ],
                 "authors": [
                     {
