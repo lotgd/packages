@@ -4038,12 +4038,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-res-charstats.git",
-                    "reference": "62115321bb93b6eb671269c4d569c8e5ef9d4834"
+                    "reference": "c8c1d8f8096731702a635018de49e86f9bf9b3db"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-res-charstats/zipball/62115321bb93b6eb671269c4d569c8e5ef9d4834",
-                    "reference": "62115321bb93b6eb671269c4d569c8e5ef9d4834",
+                    "url": "https://api.github.com/repos/lotgd/module-res-charstats/zipball/c8c1d8f8096731702a635018de49e86f9bf9b3db",
+                    "reference": "c8c1d8f8096731702a635018de49e86f9bf9b3db",
                     "shasum": ""
                 },
                 "require": {
@@ -4053,7 +4053,7 @@
                     "phpunit/phpunit": "^9.0",
                     "symfony/yaml": "*"
                 },
-                "time": "2021-01-30T16:40:59+00:00",
+                "time": "2021-01-30T16:48:23+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
