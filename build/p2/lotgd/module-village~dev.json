@@ -8,22 +8,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-village.git",
-                    "reference": "34dc04f1951f89ec6bed3afe3e722554b314078b"
+                    "reference": "12320b94c9165a8771c8092d1e62c784204e4827"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/34dc04f1951f89ec6bed3afe3e722554b314078b",
-                    "reference": "34dc04f1951f89ec6bed3afe3e722554b314078b",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/12320b94c9165a8771c8092d1e62c784204e4827",
+                    "reference": "12320b94c9165a8771c8092d1e62c784204e4827",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": ">=0.5.0-alpha"
+                    "lotgd/core": "^0.6.0-alpha"
                 },
                 "require-dev": {
                     "phpunit/phpunit": "*",
                     "symfony/yaml": "*"
                 },
-                "time": "2020-12-30T12:16:58+00:00",
+                "time": "2021-01-30T14:36:20+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -31,7 +31,7 @@
                     }
                 },
                 "license": [
-                    "AGPL-3.0"
+                    "AGPL-3.0-or-later"
                 ],
                 "authors": [
                     {
