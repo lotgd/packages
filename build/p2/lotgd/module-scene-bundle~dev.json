@@ -8,23 +8,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-scene-bundle.git",
-                    "reference": "6101755bc9a30413ca6918c8a2dc7c9d059ed942"
+                    "reference": "bd92f3bd4d61ff286c283082f01bafacf174693f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-scene-bundle/zipball/6101755bc9a30413ca6918c8a2dc7c9d059ed942",
-                    "reference": "6101755bc9a30413ca6918c8a2dc7c9d059ed942",
+                    "url": "https://api.github.com/repos/lotgd/module-scene-bundle/zipball/bd92f3bd4d61ff286c283082f01bafacf174693f",
+                    "reference": "bd92f3bd4d61ff286c283082f01bafacf174693f",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": ">=0.5.0",
-                    "lotgd/module-village": ">=0.5.0"
+                    "lotgd/core": "^0.6.0-alpha",
+                    "lotgd/module-village": "^0.6"
                 },
                 "require-dev": {
-                    "phpunit/dbunit": "*",
-                    "phpunit/phpunit": "^4.1|^5.1"
+                    "phpunit/phpunit": "*",
+                    "symfony/yaml": "*"
                 },
-                "time": "2019-04-07T10:37:24+00:00",
+                "time": "2021-01-30T15:07:32+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -46,7 +46,7 @@
                 ],
                 "description": "A bundle of small scenes.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-scene-bundle/tree/v0.5.0",
+                    "source": "https://github.com/lotgd/module-scene-bundle/tree/master",
                     "issues": "https://github.com/lotgd/module-scene-bundle/issues"
                 }
             },
