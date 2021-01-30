@@ -8,23 +8,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-new-day.git",
-                    "reference": "ce634909f7920ed64faf02c2fb05455f42e8c084"
+                    "reference": "594360e7678c86ffefea8c2acc7b048f070334f0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-new-day/zipball/ce634909f7920ed64faf02c2fb05455f42e8c084",
-                    "reference": "ce634909f7920ed64faf02c2fb05455f42e8c084",
+                    "url": "https://api.github.com/repos/lotgd/module-new-day/zipball/594360e7678c86ffefea8c2acc7b048f070334f0",
+                    "reference": "594360e7678c86ffefea8c2acc7b048f070334f0",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": ">=0.5",
-                    "lotgd/module-village": ">=0.5.0"
+                    "lotgd/core": "^0.6.0-alpha",
+                    "lotgd/module-village": "^0.6"
                 },
                 "require-dev": {
-                    "phpunit/dbunit": "^2.0",
-                    "phpunit/phpunit": "^5.0"
+                    "phpunit/phpunit": "^9.0",
+                    "symfony/yaml": "*"
                 },
-                "time": "2019-04-07T18:12:15+00:00",
+                "time": "2021-01-30T15:46:22+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -33,7 +33,7 @@
                     }
                 },
                 "license": [
-                    "AGPL-3.0"
+                    "AGPL-3.0-or-later"
                 ],
                 "authors": [
                     {
@@ -41,9 +41,9 @@
                         "email": "basilius.sauter@gmail.com"
                     }
                 ],
-                "description": "A new day module.",
+                "description": "This module adds in a new day, with tools and hooks for other modules to add themselves in.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-new-day/tree/v0.5.0",
+                    "source": "https://github.com/lotgd/module-new-day/tree/master",
                     "issues": "https://github.com/lotgd/module-new-day/issues"
                 }
             },

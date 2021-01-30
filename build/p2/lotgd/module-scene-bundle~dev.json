@@ -46,7 +46,7 @@
                 ],
                 "description": "A bundle of small scenes.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-scene-bundle/tree/master",
+                    "source": "https://github.com/lotgd/module-scene-bundle/tree/v0.6.0",
                     "issues": "https://github.com/lotgd/module-scene-bundle/issues"
                 }
             },
