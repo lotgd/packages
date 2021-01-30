@@ -282,6 +282,54 @@
                     "source": "https://github.com/lotgd/module-village/tree/v0.5.0",
                     "issues": "https://github.com/lotgd/module-village/issues"
                 }
+            },
+            {
+                "name": "lotgd/module-village",
+                "version": "v0.6.0",
+                "version_normalized": "0.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "12320b94c9165a8771c8092d1e62c784204e4827"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/12320b94c9165a8771c8092d1e62c784204e4827",
+                    "reference": "12320b94c9165a8771c8092d1e62c784204e4827",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.6.0-alpha"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "*",
+                    "symfony/yaml": "*"
+                },
+                "time": "2021-01-30T14:36:20+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/v0.6.0",
+                    "issues": "https://github.com/lotgd/module-village/issues"
+                }
             }
         ]
     }
