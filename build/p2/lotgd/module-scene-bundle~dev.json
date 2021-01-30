@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-scene-bundle.git",
-                    "reference": "bd92f3bd4d61ff286c283082f01bafacf174693f"
+                    "reference": "978de08f058bf27e54ce73d1f3efdd2ef4b91ae0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-scene-bundle/zipball/bd92f3bd4d61ff286c283082f01bafacf174693f",
-                    "reference": "bd92f3bd4d61ff286c283082f01bafacf174693f",
+                    "url": "https://api.github.com/repos/lotgd/module-scene-bundle/zipball/978de08f058bf27e54ce73d1f3efdd2ef4b91ae0",
+                    "reference": "978de08f058bf27e54ce73d1f3efdd2ef4b91ae0",
                     "shasum": ""
                 },
                 "require": {
@@ -24,7 +24,7 @@
                     "phpunit/phpunit": "*",
                     "symfony/yaml": "*"
                 },
-                "time": "2021-01-30T15:07:32+00:00",
+                "time": "2021-01-30T15:12:15+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -32,7 +32,7 @@
                     }
                 },
                 "license": [
-                    "AGPL-3.0"
+                    "AGPL-3.0-or-later"
                 ],
                 "authors": [
                     {
