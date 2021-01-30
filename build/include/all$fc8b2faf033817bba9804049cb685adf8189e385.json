@@ -5432,12 +5432,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-village.git",
-                    "reference": "12320b94c9165a8771c8092d1e62c784204e4827"
+                    "reference": "25d31e8fb7716055adc12afd54656759faaa3a10"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/12320b94c9165a8771c8092d1e62c784204e4827",
-                    "reference": "12320b94c9165a8771c8092d1e62c784204e4827",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/25d31e8fb7716055adc12afd54656759faaa3a10",
+                    "reference": "25d31e8fb7716055adc12afd54656759faaa3a10",
                     "shasum": ""
                 },
                 "require": {
@@ -5447,7 +5447,7 @@
                     "phpunit/phpunit": "*",
                     "symfony/yaml": "*"
                 },
-                "time": "2021-01-30T14:36:20+00:00",
+                "time": "2021-01-30T14:47:52+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -5469,7 +5469,7 @@
                 ],
                 "description": "A basic village.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-village/tree/v0.6.0",
+                    "source": "https://github.com/lotgd/module-village/tree/master",
                     "issues": "https://github.com/lotgd/module-village/issues"
                 }
             },
