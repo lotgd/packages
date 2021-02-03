@@ -44,7 +44,7 @@
                 ],
                 "description": "A resource module which provides basic fighting capabilities as well as hooks to extend them.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-res-fight/tree/master",
+                    "source": "https://github.com/lotgd/module-res-fight/tree/v0.6.0",
                     "issues": "https://github.com/lotgd/module-res-fight/issues"
                 }
             },

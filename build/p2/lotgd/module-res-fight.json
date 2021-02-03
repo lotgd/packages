@@ -141,6 +141,53 @@
                     "source": "https://github.com/lotgd/module-res-fight/tree/v0.5.0",
                     "issues": "https://github.com/lotgd/module-res-fight/issues"
                 }
+            },
+            {
+                "name": "lotgd/module-res-fight",
+                "version": "v0.6.0",
+                "version_normalized": "0.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-res-fight.git",
+                    "reference": "4c0ff85a74bea961a3fa42087c2d51664ea2af70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/4c0ff85a74bea961a3fa42087c2d51664ea2af70",
+                    "reference": "4c0ff85a74bea961a3fa42087c2d51664ea2af70",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.6.0-alpha",
+                    "lotgd/module-new-day": "^0.6.0",
+                    "lotgd/module-village": "^0.6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "*",
+                    "symfony/yaml": "*"
+                },
+                "time": "2021-02-03T07:03:09+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Res\\Fight\\": "src/",
+                        "LotGD\\Module\\Res\\Fight\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "A resource module which provides basic fighting capabilities as well as hooks to extend them.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-res-fight/tree/v0.6.0",
+                    "issues": "https://github.com/lotgd/module-res-fight/issues"
+                }
             }
         ]
     }
