@@ -8,24 +8,24 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-gender.git",
-                    "reference": "104eff30b05b394bb21c47c6224e646e0662a62f"
+                    "reference": "7426da0e9dc8f252c4f326e69aa78333f55b6236"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-gender/zipball/104eff30b05b394bb21c47c6224e646e0662a62f",
-                    "reference": "104eff30b05b394bb21c47c6224e646e0662a62f",
+                    "url": "https://api.github.com/repos/lotgd/module-gender/zipball/7426da0e9dc8f252c4f326e69aa78333f55b6236",
+                    "reference": "7426da0e9dc8f252c4f326e69aa78333f55b6236",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": "*",
-                    "lotgd/module-new-day": "*",
-                    "lotgd/module-village": "*"
+                    "lotgd/core": "^0.6.0",
+                    "lotgd/module-new-day": "^0.6",
+                    "lotgd/module-village": "^0.6"
                 },
                 "require-dev": {
                     "phpunit/phpunit": "*",
                     "symfony/yaml": "*"
                 },
-                "time": "2021-02-03T11:30:51+00:00",
+                "time": "2021-02-03T12:10:46+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -33,7 +33,7 @@
                     }
                 },
                 "license": [
-                    "AGPL-3.0"
+                    "AGPL-3.0-or-later"
                 ],
                 "authors": [
                     {
