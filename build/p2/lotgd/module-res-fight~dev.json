@@ -8,24 +8,24 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-res-fight.git",
-                    "reference": "a017bd5aab7aedbb54a6f75372c50b2c2c9b282d"
+                    "reference": "4c0ff85a74bea961a3fa42087c2d51664ea2af70"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/a017bd5aab7aedbb54a6f75372c50b2c2c9b282d",
-                    "reference": "a017bd5aab7aedbb54a6f75372c50b2c2c9b282d",
+                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/4c0ff85a74bea961a3fa42087c2d51664ea2af70",
+                    "reference": "4c0ff85a74bea961a3fa42087c2d51664ea2af70",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": ">=0.5",
-                    "lotgd/module-new-day": ">=0.5.0-alpha",
-                    "lotgd/module-village": ">=0.5.0-alpha"
+                    "lotgd/core": "^0.6.0-alpha",
+                    "lotgd/module-new-day": "^0.6.0",
+                    "lotgd/module-village": "^0.6.0"
                 },
                 "require-dev": {
-                    "phpunit/dbunit": "*",
-                    "phpunit/phpunit": "^4.1|^5.1"
+                    "phpunit/phpunit": "*",
+                    "symfony/yaml": "*"
                 },
-                "time": "2019-04-08T09:21:57+00:00",
+                "time": "2021-02-03T07:03:09+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -34,7 +34,7 @@
                     }
                 },
                 "license": [
-                    "AGPL-3.0"
+                    "AGPL-3.0-or-later"
                 ],
                 "authors": [
                     {
@@ -44,7 +44,7 @@
                 ],
                 "description": "A resource module which provides basic fighting capabilities as well as hooks to extend them.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-res-fight/tree/v0.5.0",
+                    "source": "https://github.com/lotgd/module-res-fight/tree/master",
                     "issues": "https://github.com/lotgd/module-res-fight/issues"
                 }
             },
