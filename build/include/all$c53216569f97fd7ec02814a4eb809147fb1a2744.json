@@ -4318,12 +4318,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-res-fight.git",
-                    "reference": "4c0ff85a74bea961a3fa42087c2d51664ea2af70"
+                    "reference": "5e773896e92bdb67630da5d6b734d2002039d413"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/4c0ff85a74bea961a3fa42087c2d51664ea2af70",
-                    "reference": "4c0ff85a74bea961a3fa42087c2d51664ea2af70",
+                    "url": "https://api.github.com/repos/lotgd/module-res-fight/zipball/5e773896e92bdb67630da5d6b734d2002039d413",
+                    "reference": "5e773896e92bdb67630da5d6b734d2002039d413",
                     "shasum": ""
                 },
                 "require": {
@@ -4335,7 +4335,7 @@
                     "phpunit/phpunit": "*",
                     "symfony/yaml": "*"
                 },
-                "time": "2021-02-03T07:03:09+00:00",
+                "time": "2021-02-03T08:09:53+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -4354,7 +4354,7 @@
                 ],
                 "description": "A resource module which provides basic fighting capabilities as well as hooks to extend them.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-res-fight/tree/v0.6.0",
+                    "source": "https://github.com/lotgd/module-res-fight/tree/master",
                     "issues": "https://github.com/lotgd/module-res-fight/issues"
                 }
             },
