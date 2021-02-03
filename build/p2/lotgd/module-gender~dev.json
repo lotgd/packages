@@ -43,7 +43,7 @@
                 ],
                 "description": "Prompts the user with a selection for a gender at a new day.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-gender/tree/master",
+                    "source": "https://github.com/lotgd/module-gender/tree/v0.6.0",
                     "issues": "https://github.com/lotgd/module-gender/issues"
                 }
             }

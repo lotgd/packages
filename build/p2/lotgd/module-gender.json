@@ -138,6 +138,52 @@
                     "source": "https://github.com/lotgd/module-gender/tree/v0.5.0",
                     "issues": "https://github.com/lotgd/module-gender/issues"
                 }
+            },
+            {
+                "name": "lotgd/module-gender",
+                "version": "v0.6.0",
+                "version_normalized": "0.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-gender.git",
+                    "reference": "7426da0e9dc8f252c4f326e69aa78333f55b6236"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-gender/zipball/7426da0e9dc8f252c4f326e69aa78333f55b6236",
+                    "reference": "7426da0e9dc8f252c4f326e69aa78333f55b6236",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.6.0",
+                    "lotgd/module-new-day": "^0.6",
+                    "lotgd/module-village": "^0.6"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "*",
+                    "symfony/yaml": "*"
+                },
+                "time": "2021-02-03T12:10:46+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Gender\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Prompts the user with a selection for a gender at a new day.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-gender/tree/v0.6.0",
+                    "issues": "https://github.com/lotgd/module-gender/issues"
+                }
             }
         ]
     }
