@@ -5232,6 +5232,54 @@
                     "issues": "https://github.com/lotgd/module-training/issues"
                 }
             },
+            "v0.6.0": {
+                "name": "lotgd/module-training",
+                "version": "v0.6.0",
+                "version_normalized": "0.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-training.git",
+                    "reference": "25b482dd73038d022af2e05193be4b157181631e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-training/zipball/25b482dd73038d022af2e05193be4b157181631e",
+                    "reference": "25b482dd73038d022af2e05193be4b157181631e",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.6.0",
+                    "lotgd/module-new-day": "^0.6",
+                    "lotgd/module-res-fight": "^0.6",
+                    "lotgd/module-village": "^0.6"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "*",
+                    "symfony/yaml": "*"
+                },
+                "time": "2021-02-03T11:07:01+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Training\\": "src/",
+                        "LotGD\\Module\\Training\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Provides warrior training for players to level up.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-training/tree/v0.6.0",
+                    "issues": "https://github.com/lotgd/module-training/issues"
+                }
+            },
             "dev-master": {
                 "name": "lotgd/module-training",
                 "version": "dev-master",
@@ -5276,7 +5324,7 @@
                 ],
                 "description": "Provides warrior training for players to level up.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-training/tree/master",
+                    "source": "https://github.com/lotgd/module-training/tree/v0.6.0",
                     "issues": "https://github.com/lotgd/module-training/issues"
                 }
             },
