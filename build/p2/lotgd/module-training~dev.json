@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-training.git",
-                    "reference": "1a5fb4e3eefb273b578fa8c2e823ece64f7e5a3a"
+                    "reference": "25b482dd73038d022af2e05193be4b157181631e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-training/zipball/1a5fb4e3eefb273b578fa8c2e823ece64f7e5a3a",
-                    "reference": "1a5fb4e3eefb273b578fa8c2e823ece64f7e5a3a",
+                    "url": "https://api.github.com/repos/lotgd/module-training/zipball/25b482dd73038d022af2e05193be4b157181631e",
+                    "reference": "25b482dd73038d022af2e05193be4b157181631e",
                     "shasum": ""
                 },
                 "require": {
@@ -26,7 +26,7 @@
                     "phpunit/phpunit": "*",
                     "symfony/yaml": "*"
                 },
-                "time": "2021-02-03T10:59:56+00:00",
+                "time": "2021-02-03T11:07:01+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -35,7 +35,7 @@
                     }
                 },
                 "license": [
-                    "AGPL-3.0"
+                    "AGPL-3.0-or-later"
                 ],
                 "authors": [
                     {
