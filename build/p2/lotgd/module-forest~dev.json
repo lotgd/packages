@@ -8,25 +8,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-forest.git",
-                    "reference": "b0f7501a21d952fdfbe771aa7b5ff79926d62c43"
+                    "reference": "cacffb59d122f1e499f5813cbbc7ac7761f7186d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-forest/zipball/b0f7501a21d952fdfbe771aa7b5ff79926d62c43",
-                    "reference": "b0f7501a21d952fdfbe771aa7b5ff79926d62c43",
+                    "url": "https://api.github.com/repos/lotgd/module-forest/zipball/cacffb59d122f1e499f5813cbbc7ac7761f7186d",
+                    "reference": "cacffb59d122f1e499f5813cbbc7ac7761f7186d",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": ">=0.5",
-                    "lotgd/module-new-day": ">=0.5.0-alpha",
-                    "lotgd/module-res-fight": ">=0.5.0-alpha",
-                    "lotgd/module-village": ">=0.5.0-alpha"
+                    "lotgd/core": "^0.6.0-alpha",
+                    "lotgd/module-new-day": "^0.6",
+                    "lotgd/module-res-fight": "^0.6",
+                    "lotgd/module-village": "^0.6"
                 },
                 "require-dev": {
-                    "phpunit/dbunit": "*",
-                    "phpunit/phpunit": "^4.1|^5.1"
+                    "phpunit/phpunit": "*",
+                    "symfony/yaml": "*"
                 },
-                "time": "2019-04-08T09:35:57+00:00",
+                "time": "2021-02-03T08:22:43+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -35,7 +35,7 @@
                     }
                 },
                 "license": [
-                    "AGPL-3.0"
+                    "AGPL-3.0-or-later"
                 ],
                 "authors": [
                     {
@@ -45,7 +45,7 @@
                 ],
                 "description": "Adds a forest to the village where players can combat monsters and earn experience.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-forest/tree/v0.5.0",
+                    "source": "https://github.com/lotgd/module-forest/tree/master",
                     "issues": "https://github.com/lotgd/module-forest/issues"
                 }
             },
