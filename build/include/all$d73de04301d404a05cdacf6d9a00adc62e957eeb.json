@@ -5239,25 +5239,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-training.git",
-                    "reference": "3977863dc9ce88f67dfbbae008368422b9578a36"
+                    "reference": "1a5fb4e3eefb273b578fa8c2e823ece64f7e5a3a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-training/zipball/3977863dc9ce88f67dfbbae008368422b9578a36",
-                    "reference": "3977863dc9ce88f67dfbbae008368422b9578a36",
+                    "url": "https://api.github.com/repos/lotgd/module-training/zipball/1a5fb4e3eefb273b578fa8c2e823ece64f7e5a3a",
+                    "reference": "1a5fb4e3eefb273b578fa8c2e823ece64f7e5a3a",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": ">=0.5.0",
-                    "lotgd/module-new-day": ">=0.5.0",
-                    "lotgd/module-res-fight": ">=0.5.0",
-                    "lotgd/module-village": ">=0.5.0"
+                    "lotgd/core": "^0.6.0",
+                    "lotgd/module-new-day": "^0.6",
+                    "lotgd/module-res-fight": "^0.6",
+                    "lotgd/module-village": "^0.6"
                 },
                 "require-dev": {
-                    "phpunit/dbunit": "*",
-                    "phpunit/phpunit": "^4.1|^5.1"
+                    "phpunit/phpunit": "*",
+                    "symfony/yaml": "*"
                 },
-                "time": "2019-04-08T10:38:56+00:00",
+                "time": "2021-02-03T10:59:56+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -5276,7 +5276,7 @@
                 ],
                 "description": "Provides warrior training for players to level up.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-training/tree/v0.5.0",
+                    "source": "https://github.com/lotgd/module-training/tree/master",
                     "issues": "https://github.com/lotgd/module-training/issues"
                 }
             },
