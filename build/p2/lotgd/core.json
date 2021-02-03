@@ -506,6 +506,61 @@
                     "source": "https://github.com/lotgd/core/tree/v0.6.0-alpha",
                     "issues": "https://github.com/lotgd/core/issues"
                 }
+            },
+            {
+                "name": "lotgd/core",
+                "version": "v0.6.0-alpha.2",
+                "version_normalized": "0.6.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "f7504bbb6043eb5049f6960e17374cb9446f84a8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/f7504bbb6043eb5049f6960e17374cb9446f84a8",
+                    "reference": "f7504bbb6043eb5049f6960e17374cb9446f84a8",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "^1.10|^2.0",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/common": "^3.0",
+                    "doctrine/orm": "^2.8",
+                    "ext-pdo": "*",
+                    "gedmo/doctrine-extensions": "^2.3|^3.0",
+                    "jetbrains/phpstorm-attributes": "^1.0",
+                    "monolog/monolog": "^2.0",
+                    "php": "^8.0",
+                    "ramsey/uuid-doctrine": "^1.5",
+                    "symfony/console": "^5.0",
+                    "symfony/yaml": "^5.0",
+                    "twig/twig": "^3.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "*",
+                    "phpunit/php-code-coverage": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2021-02-03T19:15:00+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-or-later"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/v0.6.0-alpha.2",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
             }
         ]
     }
