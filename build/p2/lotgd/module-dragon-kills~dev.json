@@ -51,7 +51,7 @@
                 "description": "Track dragon kills in your realm.",
                 "homepage": "https://github.com/lotgd/module-dragon-kills",
                 "support": {
-                    "source": "https://github.com/lotgd/module-dragon-kills/tree/master",
+                    "source": "https://github.com/lotgd/module-dragon-kills/tree/v0.6.0",
                     "issues": "https://github.com/lotgd/module-dragon-kills/issues"
                 }
             },
