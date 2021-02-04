@@ -108,6 +108,60 @@
                     "source": "https://github.com/lotgd/module-dragon-kills/tree/v0.6.0",
                     "issues": "https://github.com/lotgd/module-dragon-kills/issues"
                 }
+            },
+            {
+                "name": "lotgd/module-dragon-kills",
+                "version": "v0.6.1",
+                "version_normalized": "0.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-dragon-kills.git",
+                    "reference": "592cb4751c1b89e2d5328a2b7f34948baee36051"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-dragon-kills/zipball/592cb4751c1b89e2d5328a2b7f34948baee36051",
+                    "reference": "592cb4751c1b89e2d5328a2b7f34948baee36051",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.6.0-alpha.3",
+                    "lotgd/module-forest": "^0.6",
+                    "lotgd/module-new-day": "^0.6",
+                    "lotgd/module-res-fight": "^0.6",
+                    "lotgd/module-village": "^0.6"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "*",
+                    "symfony/yaml": "*"
+                },
+                "time": "2021-02-04T17:02:43+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\DragonKills\\": "src/",
+                        "LotGD\\Module\\DragonKills\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    },
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Track dragon kills in your realm.",
+                "homepage": "https://github.com/lotgd/module-dragon-kills",
+                "support": {
+                    "source": "https://github.com/lotgd/module-dragon-kills/tree/v0.6.1",
+                    "issues": "https://github.com/lotgd/module-dragon-kills/issues"
+                }
             }
         ]
     }
