@@ -3087,16 +3087,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-dragon-kills.git",
-                    "reference": "805201c7dca8c6b8a785adc8f82aa5e4c71ca3f8"
+                    "reference": "592cb4751c1b89e2d5328a2b7f34948baee36051"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-dragon-kills/zipball/805201c7dca8c6b8a785adc8f82aa5e4c71ca3f8",
-                    "reference": "805201c7dca8c6b8a785adc8f82aa5e4c71ca3f8",
+                    "url": "https://api.github.com/repos/lotgd/module-dragon-kills/zipball/592cb4751c1b89e2d5328a2b7f34948baee36051",
+                    "reference": "592cb4751c1b89e2d5328a2b7f34948baee36051",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": "0.6.0-alpha.3",
+                    "lotgd/core": "^0.6.0-alpha.3",
                     "lotgd/module-forest": "^0.6",
                     "lotgd/module-new-day": "^0.6",
                     "lotgd/module-res-fight": "^0.6",
@@ -3106,7 +3106,7 @@
                     "phpunit/phpunit": "*",
                     "symfony/yaml": "*"
                 },
-                "time": "2021-02-04T16:35:11+00:00",
+                "time": "2021-02-04T17:02:43+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -3130,7 +3130,7 @@
                 "description": "Track dragon kills in your realm.",
                 "homepage": "https://github.com/lotgd/module-dragon-kills",
                 "support": {
-                    "source": "https://github.com/lotgd/module-dragon-kills/tree/v0.6.0",
+                    "source": "https://github.com/lotgd/module-dragon-kills/tree/master",
                     "issues": "https://github.com/lotgd/module-dragon-kills/issues"
                 }
             },
