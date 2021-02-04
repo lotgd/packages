@@ -8,16 +8,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-dragon-kills.git",
-                    "reference": "46eda7ade2ff85d78d0100810e16927986e251e1"
+                    "reference": "690dd7e42f99ee24cede6540d3d6b079bd0546ca"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-dragon-kills/zipball/46eda7ade2ff85d78d0100810e16927986e251e1",
-                    "reference": "46eda7ade2ff85d78d0100810e16927986e251e1",
+                    "url": "https://api.github.com/repos/lotgd/module-dragon-kills/zipball/690dd7e42f99ee24cede6540d3d6b079bd0546ca",
+                    "reference": "690dd7e42f99ee24cede6540d3d6b079bd0546ca",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": "dev-master as 0.6.0-alpha.3",
+                    "lotgd/core": "0.6.0-alpha.3",
                     "lotgd/module-forest": "^0.6",
                     "lotgd/module-new-day": "^0.6",
                     "lotgd/module-res-fight": "^0.6",
@@ -27,7 +27,7 @@
                     "phpunit/phpunit": "*",
                     "symfony/yaml": "*"
                 },
-                "time": "2021-02-04T15:34:24+00:00",
+                "time": "2021-02-04T16:33:08+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
