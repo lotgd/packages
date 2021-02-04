@@ -569,12 +569,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/core.git",
-                    "reference": "75dd7494c3a268323aa779f9d9259674db1211a7"
+                    "reference": "d83e437b4ac487bfdb269cf24e25e139cd9c1ffb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/core/zipball/75dd7494c3a268323aa779f9d9259674db1211a7",
-                    "reference": "75dd7494c3a268323aa779f9d9259674db1211a7",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/d83e437b4ac487bfdb269cf24e25e139cd9c1ffb",
+                    "reference": "d83e437b4ac487bfdb269cf24e25e139cd9c1ffb",
                     "shasum": ""
                 },
                 "require": {
@@ -597,7 +597,7 @@
                     "phpunit/php-code-coverage": "*",
                     "phpunit/phpunit": "*"
                 },
-                "time": "2021-02-04T11:03:43+00:00",
+                "time": "2021-02-04T15:37:07+00:00",
                 "bin": [
                     "bin/daenerys"
                 ],
@@ -888,6 +888,61 @@
                 "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
                 "support": {
                     "source": "https://github.com/lotgd/core/tree/fix/152",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-fix/154": {
+                "name": "lotgd/core",
+                "version": "dev-fix/154",
+                "version_normalized": "dev-fix/154",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "9f0b87324963964051bed0342f470bb511f263d4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/9f0b87324963964051bed0342f470bb511f263d4",
+                    "reference": "9f0b87324963964051bed0342f470bb511f263d4",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "^1.10|^2.0",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/common": "^3.0",
+                    "doctrine/orm": "^2.8",
+                    "ext-pdo": "*",
+                    "gedmo/doctrine-extensions": "^2.3|^3.0",
+                    "jetbrains/phpstorm-attributes": "^1.0",
+                    "monolog/monolog": "^2.0",
+                    "php": "^8.0",
+                    "ramsey/uuid-doctrine": "^1.5",
+                    "symfony/console": "^5.0",
+                    "symfony/yaml": "^5.0",
+                    "twig/twig": "^3.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "*",
+                    "phpunit/php-code-coverage": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2021-02-04T14:24:28+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-or-later"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/fix/154",
                     "issues": "https://github.com/lotgd/core/issues"
                 }
             },
@@ -2923,26 +2978,26 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-dragon-kills.git",
-                    "reference": "7a92697e4d9c6805b68c03eb99cf1634536a89d4"
+                    "reference": "46eda7ade2ff85d78d0100810e16927986e251e1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-dragon-kills/zipball/7a92697e4d9c6805b68c03eb99cf1634536a89d4",
-                    "reference": "7a92697e4d9c6805b68c03eb99cf1634536a89d4",
+                    "url": "https://api.github.com/repos/lotgd/module-dragon-kills/zipball/46eda7ade2ff85d78d0100810e16927986e251e1",
+                    "reference": "46eda7ade2ff85d78d0100810e16927986e251e1",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": "dev-master as v0.3.3-alpha",
-                    "lotgd/module-forest": "dev-master as v0.3.3-alpha",
-                    "lotgd/module-new-day": "dev-master as v0.3.3-alpha",
-                    "lotgd/module-res-fight": "dev-master as v0.3.3-alpha",
-                    "lotgd/module-village": "dev-master as v0.3.3-alpha"
+                    "lotgd/core": "dev-master as 0.6.0-alpha.3",
+                    "lotgd/module-forest": "^0.6",
+                    "lotgd/module-new-day": "^0.6",
+                    "lotgd/module-res-fight": "^0.6",
+                    "lotgd/module-village": "^0.6"
                 },
                 "require-dev": {
-                    "phpunit/dbunit": "*",
-                    "phpunit/phpunit": "^4.1|^5.1"
+                    "phpunit/phpunit": "*",
+                    "symfony/yaml": "*"
                 },
-                "time": "2018-01-14T13:24:33+00:00",
+                "time": "2021-02-04T15:34:24+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -2951,7 +3006,7 @@
                     }
                 },
                 "license": [
-                    "AGPL-3.0"
+                    "AGPL-3.0-or-later"
                 ],
                 "authors": [
                     {
