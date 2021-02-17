@@ -7,12 +7,12 @@
                 "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/lotgd/module-simple-wealth.git",
+                    "url": "https://github.com/lotgd/module-res-wealth.git",
                     "reference": "0c85c9918d297703decde260ffea8def59162014"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-simple-wealth/zipball/0c85c9918d297703decde260ffea8def59162014",
+                    "url": "https://api.github.com/repos/lotgd/module-res-wealth/zipball/0c85c9918d297703decde260ffea8def59162014",
                     "reference": "0c85c9918d297703decde260ffea8def59162014",
                     "shasum": ""
                 },
@@ -41,8 +41,8 @@
                 ],
                 "description": "Gold and gem tracking for users.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-simple-wealth/tree/master",
-                    "issues": "https://github.com/lotgd/module-simple-wealth/issues"
+                    "source": "https://github.com/lotgd/module-res-wealth/tree/master",
+                    "issues": "https://github.com/lotgd/module-res-wealth/issues"
                 }
             }
         ]
