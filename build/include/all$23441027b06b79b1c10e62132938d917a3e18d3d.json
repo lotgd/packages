@@ -5060,12 +5060,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-res-wealth.git",
-                    "reference": "75ddbd8d0295e2bdffd07c79f27123d136219066"
+                    "reference": "ad92ee543f78413915473421333de8a43266731e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-res-wealth/zipball/75ddbd8d0295e2bdffd07c79f27123d136219066",
-                    "reference": "75ddbd8d0295e2bdffd07c79f27123d136219066",
+                    "url": "https://api.github.com/repos/lotgd/module-res-wealth/zipball/ad92ee543f78413915473421333de8a43266731e",
+                    "reference": "ad92ee543f78413915473421333de8a43266731e",
                     "shasum": ""
                 },
                 "require": {
@@ -5075,7 +5075,7 @@
                     "phpunit/phpunit": "^9.0",
                     "symfony/yaml": "*"
                 },
-                "time": "2021-02-20T15:32:32+00:00",
+                "time": "2021-02-20T15:40:34+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
