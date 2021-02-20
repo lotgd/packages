@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$645605bc7491ca78e3693157654cf49de0b2ce5c.json": {
-            "sha1": "645605bc7491ca78e3693157654cf49de0b2ce5c"
+        "include/all$c56c6bf48edaecedb7330bb499ae9c57d61e17a1.json": {
+            "sha1": "c56c6bf48edaecedb7330bb499ae9c57d61e17a1"
         }
     },
     "metadata-url": "/lotgd/packages/master/build/p2/%package%.json",
@@ -18,9 +18,9 @@
         "lotgd/module-project",
         "lotgd/module-res-charstats",
         "lotgd/module-res-fight",
+        "lotgd/module-res-wealth",
         "lotgd/module-scene-bundle",
         "lotgd/module-simple-inventory",
-        "lotgd/module-simple-wealth",
         "lotgd/module-training",
         "lotgd/module-village",
         "lotgd/module-weapon-shop"

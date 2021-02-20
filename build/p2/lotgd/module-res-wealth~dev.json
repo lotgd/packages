@@ -1,0 +1,55 @@
+{
+    "packages": {
+        "lotgd/module-res-wealth": [
+            {
+                "name": "lotgd/module-res-wealth",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-res-wealth.git",
+                    "reference": "75ddbd8d0295e2bdffd07c79f27123d136219066"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-res-wealth/zipball/75ddbd8d0295e2bdffd07c79f27123d136219066",
+                    "reference": "75ddbd8d0295e2bdffd07c79f27123d136219066",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.6.0-alpha.4"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.0",
+                    "symfony/yaml": "*"
+                },
+                "time": "2021-02-20T15:32:32+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Res\\Wealth\\": "src/",
+                        "LotGD\\Module\\Res\\Wealth\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    },
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Gold and gem tracking for users.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-res-wealth/tree/master",
+                    "issues": "https://github.com/lotgd/module-res-wealth/issues"
+                }
+            }
+        ]
+    }
+}
