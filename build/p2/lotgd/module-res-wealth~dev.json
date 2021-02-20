@@ -46,7 +46,7 @@
                 ],
                 "description": "Gold and gem tracking for users.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-res-wealth/tree/master",
+                    "source": "https://github.com/lotgd/module-res-wealth/tree/v0.6.0",
                     "issues": "https://github.com/lotgd/module-res-wealth/issues"
                 }
             }
