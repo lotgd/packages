@@ -679,12 +679,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/core.git",
-                    "reference": "25ccbd89749fbf6645b53fa5bd1261193070f43a"
+                    "reference": "a9e5647fe0e03138c1863d85f7fe3e5525218526"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/core/zipball/25ccbd89749fbf6645b53fa5bd1261193070f43a",
-                    "reference": "25ccbd89749fbf6645b53fa5bd1261193070f43a",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/a9e5647fe0e03138c1863d85f7fe3e5525218526",
+                    "reference": "a9e5647fe0e03138c1863d85f7fe3e5525218526",
                     "shasum": ""
                 },
                 "require": {
@@ -707,7 +707,7 @@
                     "phpunit/php-code-coverage": "*",
                     "phpunit/phpunit": "*"
                 },
-                "time": "2021-02-25T15:46:42+00:00",
+                "time": "2021-02-26T13:32:59+00:00",
                 "bin": [
                     "bin/daenerys"
                 ],
@@ -1118,12 +1118,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/core.git",
-                    "reference": "20d6c7ab1a145d0c916b48070848fff408b8eba8"
+                    "reference": "df3a07582b0917cd38f4ca53f4f9f1f5eee8742e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/core/zipball/20d6c7ab1a145d0c916b48070848fff408b8eba8",
-                    "reference": "20d6c7ab1a145d0c916b48070848fff408b8eba8",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/df3a07582b0917cd38f4ca53f4f9f1f5eee8742e",
+                    "reference": "df3a07582b0917cd38f4ca53f4f9f1f5eee8742e",
                     "shasum": ""
                 },
                 "require": {
@@ -1146,7 +1146,7 @@
                     "phpunit/php-code-coverage": "*",
                     "phpunit/phpunit": "*"
                 },
-                "time": "2021-02-25T15:12:02+00:00",
+                "time": "2021-02-26T13:27:26+00:00",
                 "bin": [
                     "bin/daenerys"
                 ],
