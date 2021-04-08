@@ -3230,6 +3230,55 @@
                     "issues": "https://github.com/lotgd/module-forest/issues"
                 }
             },
+            "v0.6.1": {
+                "name": "lotgd/module-forest",
+                "version": "v0.6.1",
+                "version_normalized": "0.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-forest.git",
+                    "reference": "414ad9e662a7c08e0f39cf2d09ca486889306ee9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-forest/zipball/414ad9e662a7c08e0f39cf2d09ca486889306ee9",
+                    "reference": "414ad9e662a7c08e0f39cf2d09ca486889306ee9",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.6.0-alpha.6",
+                    "lotgd/module-new-day": "^0.6",
+                    "lotgd/module-res-fight": "^0.6",
+                    "lotgd/module-res-wealth": "^0.6",
+                    "lotgd/module-village": "^0.6"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "*",
+                    "symfony/yaml": "*"
+                },
+                "time": "2021-04-08T16:14:07+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Forest\\": "src/",
+                        "LotGD\\Module\\Forest\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Adds a forest to the village where players can combat monsters and earn experience.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-forest/tree/v0.6.1",
+                    "issues": "https://github.com/lotgd/module-forest/issues"
+                }
+            },
             "dev-master": {
                 "name": "lotgd/module-forest",
                 "version": "dev-master",
@@ -3275,7 +3324,7 @@
                 ],
                 "description": "Adds a forest to the village where players can combat monsters and earn experience.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-forest/tree/master",
+                    "source": "https://github.com/lotgd/module-forest/tree/v0.6.1",
                     "issues": "https://github.com/lotgd/module-forest/issues"
                 }
             },
