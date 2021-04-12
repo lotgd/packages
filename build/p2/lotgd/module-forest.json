@@ -193,6 +193,55 @@
                     "source": "https://github.com/lotgd/module-forest/tree/v0.6.1",
                     "issues": "https://github.com/lotgd/module-forest/issues"
                 }
+            },
+            {
+                "name": "lotgd/module-forest",
+                "version": "v0.6.2",
+                "version_normalized": "0.6.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-forest.git",
+                    "reference": "3743e59d380848fb88369f3da5fe1e5a87237f5a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-forest/zipball/3743e59d380848fb88369f3da5fe1e5a87237f5a",
+                    "reference": "3743e59d380848fb88369f3da5fe1e5a87237f5a",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "^0.6.0-alpha.6",
+                    "lotgd/module-new-day": "^0.6",
+                    "lotgd/module-res-fight": "^0.6",
+                    "lotgd/module-res-wealth": "^0.6",
+                    "lotgd/module-village": "^0.6"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "*",
+                    "symfony/yaml": "*"
+                },
+                "time": "2021-04-11T09:44:20+00:00",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Forest\\": "src/",
+                        "LotGD\\Module\\Forest\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    }
+                ],
+                "description": "Adds a forest to the village where players can combat monsters and earn experience.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-forest/tree/v0.6.2",
+                    "issues": "https://github.com/lotgd/module-forest/issues"
+                }
             }
         ]
     }

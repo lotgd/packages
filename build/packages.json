@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$60ca77b9d36794fa8a718fe8ea8788f3dd2afc4f.json": {
-            "sha1": "60ca77b9d36794fa8a718fe8ea8788f3dd2afc4f"
+        "include/all$30100a43b65f892c2ee04dbf6fbd9da33198a5dc.json": {
+            "sha1": "30100a43b65f892c2ee04dbf6fbd9da33198a5dc"
         }
     },
     "metadata-url": "/lotgd/packages/master/build/p2/%package%.json",

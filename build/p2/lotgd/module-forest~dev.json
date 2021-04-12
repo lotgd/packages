@@ -46,7 +46,7 @@
                 ],
                 "description": "Adds a forest to the village where players can combat monsters and earn experience.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-forest/tree/master",
+                    "source": "https://github.com/lotgd/module-forest/tree/v0.6.2",
                     "issues": "https://github.com/lotgd/module-forest/issues"
                 }
             },
