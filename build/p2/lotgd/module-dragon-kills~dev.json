@@ -8,26 +8,27 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-dragon-kills.git",
-                    "reference": "592cb4751c1b89e2d5328a2b7f34948baee36051"
+                    "reference": "bac29e54e33540341f0d01bfabaf0472c4a22a92"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-dragon-kills/zipball/592cb4751c1b89e2d5328a2b7f34948baee36051",
-                    "reference": "592cb4751c1b89e2d5328a2b7f34948baee36051",
+                    "url": "https://api.github.com/repos/lotgd/module-dragon-kills/zipball/bac29e54e33540341f0d01bfabaf0472c4a22a92",
+                    "reference": "bac29e54e33540341f0d01bfabaf0472c4a22a92",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/core": "^0.6.0-alpha.3",
-                    "lotgd/module-forest": "^0.6",
+                    "lotgd/core": "^0.6.0-alpha.6",
+                    "lotgd/module-forest": "^0.6.2",
                     "lotgd/module-new-day": "^0.6",
                     "lotgd/module-res-fight": "^0.6",
+                    "lotgd/module-res-wealth": "^0.6",
                     "lotgd/module-village": "^0.6"
                 },
                 "require-dev": {
                     "phpunit/phpunit": "*",
                     "symfony/yaml": "*"
                 },
-                "time": "2021-02-04T17:02:43+00:00",
+                "time": "2021-04-12T14:31:29+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -51,7 +52,7 @@
                 "description": "Track dragon kills in your realm.",
                 "homepage": "https://github.com/lotgd/module-dragon-kills",
                 "support": {
-                    "source": "https://github.com/lotgd/module-dragon-kills/tree/v0.6.1",
+                    "source": "https://github.com/lotgd/module-dragon-kills/tree/v0.6.2",
                     "issues": "https://github.com/lotgd/module-dragon-kills/issues"
                 }
             },
