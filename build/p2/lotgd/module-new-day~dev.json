@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-new-day.git",
-                    "reference": "cd30b82ab9a459d1445a93dd1b10cfb803510bd1"
+                    "reference": "d72e409f6f2f47a0a946fad90896969685473111"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-new-day/zipball/cd30b82ab9a459d1445a93dd1b10cfb803510bd1",
-                    "reference": "cd30b82ab9a459d1445a93dd1b10cfb803510bd1",
+                    "url": "https://api.github.com/repos/lotgd/module-new-day/zipball/d72e409f6f2f47a0a946fad90896969685473111",
+                    "reference": "d72e409f6f2f47a0a946fad90896969685473111",
                     "shasum": ""
                 },
                 "require": {
@@ -24,7 +24,7 @@
                     "phpunit/phpunit": "^9.0",
                     "symfony/yaml": "*"
                 },
-                "time": "2021-01-30T15:49:25+00:00",
+                "time": "2021-04-12T15:20:44+00:00",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -43,7 +43,7 @@
                 ],
                 "description": "This module adds in a new day, with tools and hooks for other modules to add themselves in.",
                 "support": {
-                    "source": "https://github.com/lotgd/module-new-day/tree/v0.6.0",
+                    "source": "https://github.com/lotgd/module-new-day/tree/master",
                     "issues": "https://github.com/lotgd/module-new-day/issues"
                 }
             },
