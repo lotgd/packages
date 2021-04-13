@@ -790,12 +790,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/core.git",
-                    "reference": "1e900d8ec73fa8351a7a258ef25ffc8fdb6a8399"
+                    "reference": "127abf136e8bb7b9739a3d3d43da3fce1089403a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/core/zipball/1e900d8ec73fa8351a7a258ef25ffc8fdb6a8399",
-                    "reference": "1e900d8ec73fa8351a7a258ef25ffc8fdb6a8399",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/127abf136e8bb7b9739a3d3d43da3fce1089403a",
+                    "reference": "127abf136e8bb7b9739a3d3d43da3fce1089403a",
                     "shasum": ""
                 },
                 "require": {
@@ -819,7 +819,7 @@
                     "phpunit/php-code-coverage": "*",
                     "phpunit/phpunit": "*"
                 },
-                "time": "2021-04-08T15:50:33+00:00",
+                "time": "2021-04-13T17:43:28+00:00",
                 "bin": [
                     "bin/daenerys"
                 ],
@@ -835,7 +835,7 @@
                 ],
                 "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
                 "support": {
-                    "source": "https://github.com/lotgd/core/tree/v0.6.0-alpha.6",
+                    "source": "https://github.com/lotgd/core/tree/master",
                     "issues": "https://github.com/lotgd/core/issues"
                 }
             },
@@ -902,12 +902,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/core.git",
-                    "reference": "e2455be738eaf1e4ece8ca3d9616dee798563ee0"
+                    "reference": "b1942e675ad1a69c640085412ad33802e29d229b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/core/zipball/e2455be738eaf1e4ece8ca3d9616dee798563ee0",
-                    "reference": "e2455be738eaf1e4ece8ca3d9616dee798563ee0",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/b1942e675ad1a69c640085412ad33802e29d229b",
+                    "reference": "b1942e675ad1a69c640085412ad33802e29d229b",
                     "shasum": ""
                 },
                 "require": {
@@ -931,7 +931,7 @@
                     "phpunit/php-code-coverage": "*",
                     "phpunit/phpunit": "*"
                 },
-                "time": "2021-04-12T16:31:11+00:00",
+                "time": "2021-04-13T17:05:30+00:00",
                 "bin": [
                     "bin/daenerys"
                 ],
