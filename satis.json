@@ -1,5 +1,5 @@
 {
-    "name": "Legend of the Green Dragon Repositories",
+    "name": "lotgd/packages",
     "homepage": "https://github.com/lotgd/packages/master/build/",
     "repositories": [
         { "type": "vcs", "url": "https://github.com/lotgd/core" },
