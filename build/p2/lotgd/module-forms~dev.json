@@ -4,7 +4,7 @@
             {
                 "name": "lotgd/module-forms",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-forms.git",
@@ -20,6 +20,7 @@
                     "myclabs/php-enum": "^1.4.2"
                 },
                 "time": "2016-09-17T06:47:00+00:00",
+                "default-branch": true,
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {

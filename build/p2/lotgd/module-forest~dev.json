@@ -4,7 +4,7 @@
             {
                 "name": "lotgd/module-forest",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-forest.git",
@@ -28,6 +28,7 @@
                     "symfony/yaml": "*"
                 },
                 "time": "2021-04-11T09:44:20+00:00",
+                "default-branch": true,
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {

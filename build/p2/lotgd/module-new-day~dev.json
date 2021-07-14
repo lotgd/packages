@@ -4,7 +4,7 @@
             {
                 "name": "lotgd/module-new-day",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-new-day.git",
@@ -25,6 +25,7 @@
                     "symfony/yaml": "*"
                 },
                 "time": "2021-04-12T15:20:44+00:00",
+                "default-branch": true,
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {

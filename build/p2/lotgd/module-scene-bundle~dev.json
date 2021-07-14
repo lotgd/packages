@@ -4,7 +4,7 @@
             {
                 "name": "lotgd/module-scene-bundle",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-scene-bundle.git",
@@ -25,6 +25,7 @@
                     "symfony/yaml": "*"
                 },
                 "time": "2021-01-30T15:12:15+00:00",
+                "default-branch": true,
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {

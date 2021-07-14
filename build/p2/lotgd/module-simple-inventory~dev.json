@@ -4,7 +4,7 @@
             {
                 "name": "lotgd/module-simple-inventory",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-simple-inventory.git",
@@ -24,6 +24,7 @@
                     "phpunit/phpunit": "^4.1|^5.1"
                 },
                 "time": "2016-12-31T22:55:58+00:00",
+                "default-branch": true,
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {

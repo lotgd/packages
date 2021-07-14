@@ -4,7 +4,7 @@
             {
                 "name": "lotgd/module-village",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-village.git",
@@ -24,6 +24,7 @@
                     "symfony/yaml": "*"
                 },
                 "time": "2021-01-30T14:47:52+00:00",
+                "default-branch": true,
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
