@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/crate-html.git",
-                    "reference": "065122957e22bf5910788533231a4df7c6883810"
+                    "reference": "546f5f7bb6bfc64994ae13874980d4351468a435"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/crate-html/zipball/065122957e22bf5910788533231a4df7c6883810",
-                    "reference": "065122957e22bf5910788533231a4df7c6883810",
+                    "url": "https://api.github.com/repos/lotgd/crate-html/zipball/546f5f7bb6bfc64994ae13874980d4351468a435",
+                    "reference": "546f5f7bb6bfc64994ae13874980d4351468a435",
                     "shasum": ""
                 },
                 "require": {
@@ -70,7 +70,7 @@
                     "symfony/test-pack": "*",
                     "symfony/web-server-bundle": "*"
                 },
-                "time": "2021-08-10T16:48:53+00:00",
+                "time": "2021-08-10T17:29:44+00:00",
                 "default-branch": true,
                 "bin": [
                     "bin/console"
