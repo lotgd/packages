@@ -59,6 +59,62 @@
             },
             {
                 "name": "lotgd/core",
+                "version": "dev-feature/twig-abs",
+                "version_normalized": "dev-feature/twig-abs",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "586a9469cb9387d07075937e6ede979897ed103f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/586a9469cb9387d07075937e6ede979897ed103f",
+                    "reference": "586a9469cb9387d07075937e6ede979897ed103f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "^1.10|^2.0",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/common": "^3.0",
+                    "doctrine/dbal": "^2.12 <2.13",
+                    "doctrine/orm": "^2.8",
+                    "ext-pdo": "*",
+                    "gedmo/doctrine-extensions": "^2.3|^3.0",
+                    "jetbrains/phpstorm-attributes": "^1.0",
+                    "monolog/monolog": "^2.0",
+                    "php": "^8.0",
+                    "ramsey/uuid-doctrine": "^1.5",
+                    "symfony/console": "^5.0",
+                    "symfony/yaml": "^5.0",
+                    "twig/twig": "^3.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "*",
+                    "phpunit/php-code-coverage": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2021-08-28T10:44:14+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-or-later"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/feature/twig-abs",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            {
+                "name": "lotgd/core",
                 "version": "dev-fix/renderer",
                 "version_normalized": "dev-fix/renderer",
                 "source": {
@@ -175,12 +231,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/core.git",
-                    "reference": "db8958a33bcbe63477d4bf8f997cc0874ae429ad"
+                    "reference": "5718f57c9153e1c99a5d25bf909b48644e10dbf9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/core/zipball/db8958a33bcbe63477d4bf8f997cc0874ae429ad",
-                    "reference": "db8958a33bcbe63477d4bf8f997cc0874ae429ad",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/5718f57c9153e1c99a5d25bf909b48644e10dbf9",
+                    "reference": "5718f57c9153e1c99a5d25bf909b48644e10dbf9",
                     "shasum": ""
                 },
                 "require": {
@@ -204,7 +260,7 @@
                     "phpunit/php-code-coverage": "*",
                     "phpunit/phpunit": "*"
                 },
-                "time": "2021-07-13T15:16:45+00:00",
+                "time": "2021-08-28T10:46:19+00:00",
                 "default-branch": true,
                 "bin": [
                     "bin/daenerys"
