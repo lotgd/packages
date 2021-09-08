@@ -3,6 +3,63 @@
         "lotgd/core": [
             {
                 "name": "lotgd/core",
+                "version": "dev-Vassyli-patch-1",
+                "version_normalized": "dev-Vassyli-patch-1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "89dccdab384b703e6fadc7255bcd7310e540e758"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/89dccdab384b703e6fadc7255bcd7310e540e758",
+                    "reference": "89dccdab384b703e6fadc7255bcd7310e540e758",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "^1.10|^2.0",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/common": "^3.0",
+                    "doctrine/dbal": "^2.12 <2.13",
+                    "doctrine/orm": "^2.8",
+                    "ext-pdo": "*",
+                    "gedmo/doctrine-extensions": "^2.3|^3.0",
+                    "jetbrains/phpstorm-attributes": "^1.0",
+                    "monolog/monolog": "^2.0",
+                    "php": "^8.0",
+                    "ramsey/uuid-doctrine": "^1.5",
+                    "symfony/console": "^5.0",
+                    "symfony/yaml": "^5.0",
+                    "twig/twig": "^3.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "*",
+                    "phpunit/php-code-coverage": "*",
+                    "phpunit/phpunit": "*",
+                    "vierbergenlars/php-semver": "*"
+                },
+                "time": "2021-09-08T20:33:39+00:00",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-or-later"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/Vassyli-patch-1",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            {
+                "name": "lotgd/core",
                 "version": "dev-feature/better-viewpoint-renderer",
                 "version_normalized": "dev-feature/better-viewpoint-renderer",
                 "source": {
@@ -231,12 +288,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/core.git",
-                    "reference": "8c135fb29c4eac36a6dd1f715c107ee68c0973d2"
+                    "reference": "c38647d3e59fe4c6adf3f04200d926b35c972ce2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/core/zipball/8c135fb29c4eac36a6dd1f715c107ee68c0973d2",
-                    "reference": "8c135fb29c4eac36a6dd1f715c107ee68c0973d2",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/c38647d3e59fe4c6adf3f04200d926b35c972ce2",
+                    "reference": "c38647d3e59fe4c6adf3f04200d926b35c972ce2",
                     "shasum": ""
                 },
                 "require": {
@@ -261,7 +318,7 @@
                     "phpunit/phpunit": "*",
                     "vierbergenlars/php-semver": "*"
                 },
-                "time": "2021-09-06T05:10:42+00:00",
+                "time": "2021-09-08T20:36:12+00:00",
                 "default-branch": true,
                 "bin": [
                     "bin/daenerys"
