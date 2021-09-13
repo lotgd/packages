@@ -1070,12 +1070,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/core.git",
-                    "reference": "c38647d3e59fe4c6adf3f04200d926b35c972ce2"
+                    "reference": "58757b4da788f713198571fb2a08c8d96434b4ff"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/core/zipball/c38647d3e59fe4c6adf3f04200d926b35c972ce2",
-                    "reference": "c38647d3e59fe4c6adf3f04200d926b35c972ce2",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/58757b4da788f713198571fb2a08c8d96434b4ff",
+                    "reference": "58757b4da788f713198571fb2a08c8d96434b4ff",
                     "shasum": ""
                 },
                 "require": {
@@ -1100,7 +1100,7 @@
                     "phpunit/phpunit": "*",
                     "vierbergenlars/php-semver": "*"
                 },
-                "time": "2021-09-08T20:36:12+00:00",
+                "time": "2021-09-13T19:33:43+00:00",
                 "default-branch": true,
                 "bin": [
                     "bin/daenerys"
